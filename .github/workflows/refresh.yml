@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['refresh.py', 'test_refresh.py', 'requirements.txt', '.github/workflows/refresh.yml']
+    paths: ['refresh.py', 'test_refresh.py', 'requirements.txt', '.gitattributes', '.github/workflows/refresh.yml']
 permissions:
   contents: write
 concurrency:
