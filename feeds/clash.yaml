@@ -1,0 +1,5423 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+geo-auto-update: false
+geox-url:
+  geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+proxies:
+- name: 🇳🇱 Netherlands 001
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇮🇹 Italy 01
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 002
+  type: ss
+  server: 82.38.31.159
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 003
+  type: ss
+  server: 193.29.139.235
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 004
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 Netherlands 005
+  type: ss
+  server: 82.38.31.204
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 006
+  type: ss
+  server: 82.38.31.215
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 007
+  type: ss
+  server: 82.38.31.186
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 008
+  type: ss
+  server: 82.38.31.162
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 009
+  type: ss
+  server: 82.38.31.200
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇮🇹 Italy 02
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 010
+  type: ss
+  server: 82.38.31.170
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 011
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 012
+  type: ss
+  server: 82.38.31.220
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 013
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 014
+  type: ss
+  server: 178.83.185.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 015
+  type: ss
+  server: 193.29.139.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 Netherlands 016
+  type: ss
+  server: 82.38.31.191
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 017
+  type: ss
+  server: 82.38.31.210
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 018
+  type: ss
+  server: 82.38.31.165
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 United Kingdom 01
+  type: ss
+  server: 146.70.61.18
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇮🇹 Italy 03
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 Italy 04
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇦🇹 Austria 01
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 United Kingdom 02
+  type: ss
+  server: 146.70.61.37
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇬🇧 United Kingdom 03
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 Netherlands 019
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 020
+  type: ss
+  server: 82.38.31.185
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 Germany 01
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇬🇧 United Kingdom 04
+  type: ss
+  server: 98.98.142.161
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇳🇱 Netherlands 021
+  type: ss
+  server: 82.38.31.155
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 022
+  type: ss
+  server: 82.38.31.202
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 023
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 024
+  type: ss
+  server: 82.38.31.171
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 025
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 026
+  type: ss
+  server: 82.38.31.218
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 027
+  type: ss
+  server: 82.38.31.47
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇮🇹 Italy 05
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 028
+  type: ss
+  server: 82.38.31.171
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 029
+  type: ss
+  server: 82.38.31.182
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 030
+  type: ss
+  server: 82.38.31.49
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 031
+  type: ss
+  server: 82.38.31.156
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 032
+  type: ss
+  server: 82.38.31.48
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 033
+  type: ss
+  server: 82.38.31.39
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 034
+  type: ss
+  server: 193.29.139.168
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 Netherlands 035
+  type: ss
+  server: 82.38.31.35
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 036
+  type: ss
+  server: 82.38.31.178
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 037
+  type: ss
+  server: 109.201.152.181
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 Netherlands 038
+  type: ss
+  server: 82.38.31.157
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 039
+  type: ss
+  server: 82.38.31.199
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 Germany 02
+  type: ss
+  server: 146.70.20.147
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇬🇧 United Kingdom 05
+  type: ss
+  server: 98.98.207.163
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇩🇪 Germany 03
+  type: ss
+  server: 169.150.210.233
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇳🇱 Netherlands 040
+  type: ss
+  server: 82.38.31.46
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 United Kingdom 06
+  type: ss
+  server: 185.176.206.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 041
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 042
+  type: ss
+  server: 82.38.31.176
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 043
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 United Kingdom 07
+  type: ss
+  server: 146.70.46.199
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇳🇱 Netherlands 044
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 045
+  type: ss
+  server: 82.38.31.195
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 United States 001
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇩🇪 Germany 04
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇬🇧 United Kingdom 08
+  type: ss
+  server: 146.70.46.214
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 002
+  type: ss
+  server: 98.98.79.198
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 003
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇧🇬 Bulgaria 01
+  type: ss
+  server: 213.183.63.60
+  port: 9064
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+  udp: true
+- name: 🇺🇸 United States 004
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 005
+  type: ss
+  server: 185.230.230.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 006
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 007
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇸🇬 Singapore 01
+  type: ss
+  server: 128.199.172.224
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 008
+  type: ss
+  server: 193.151.163.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 009
+  type: ss
+  server: 173.244.56.9
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 010
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 011
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 Canada 01
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 Canada 02
+  type: ss
+  server: 137.184.174.93
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 012
+  type: ss
+  server: 45.86.51.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 013
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇸🇬 Singapore 02
+  type: ss
+  server: 68.183.235.122
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 014
+  type: ss
+  server: 79.110.53.169
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 015
+  type: ss
+  server: 107.151.182.197
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 016
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 017
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇸🇬 Singapore 03
+  type: ss
+  server: 68.183.235.240
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 018
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 Canada 03
+  type: ss
+  server: 138.197.141.58
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 019
+  type: ss
+  server: 193.151.160.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 020
+  type: ss
+  server: 138.199.43.159
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 021
+  type: ss
+  server: 79.110.54.250
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇸🇬 Singapore 04
+  type: ss
+  server: 68.183.227.236
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 022
+  type: ss
+  server: 23.251.121.242
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 023
+  type: ss
+  server: 107.155.57.51
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 024
+  type: ss
+  server: 107.151.182.253
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇸🇬 Singapore 05
+  type: ss
+  server: 128.1.186.73
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 United States 025
+  type: ss
+  server: 138.199.42.68
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇯🇵 Japan 01
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇸🇬 Singapore 06
+  type: ss
+  server: 68.183.227.4
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇯🇵 Japan 02
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 United States 026
+  type: ss
+  server: 107.155.57.11
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇸🇬 Singapore 07
+  type: ss
+  server: 128.1.186.132
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇸🇬 Singapore 08
+  type: ss
+  server: 68.183.227.45
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇳🇱 Netherlands 046
+  type: ss
+  server: 82.38.31.211
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 047
+  type: ss
+  server: 82.38.31.34
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 Netherlands 048
+  type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 United Kingdom 09
+  type: ss
+  server: 94.156.250.148
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇵🇱 Poland 01
+  type: ss
+  server: 54.36.174.134
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
+- name: 🇳🇱 Netherlands 049
+  type: ss
+  server: 104.239.12.81
+  port: 43385
+  cipher: chacha20-ietf-poly1305
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
+  udp: true
+- name: 🇵🇱 Poland 02
+  type: ss
+  server: 54.36.174.140
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
+- name: 🇳🇱 Netherlands 050
+  type: ss
+  server: 82.38.31.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇮🇹 Italy 06
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 051
+  type: ss
+  server: 193.29.139.132
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 Germany 05
+  type: ss
+  server: 185.176.204.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 052
+  type: ss
+  server: 82.38.31.180
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 053
+  type: ss
+  server: 82.38.31.203
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 054
+  type: ss
+  server: 193.29.139.223
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 055
+  type: ss
+  server: 82.38.31.187
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 056
+  type: ss
+  server: 82.38.31.201
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 057
+  type: ss
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇱🇹 Lithuania 01
+  type: ss
+  server: 195.238.126.20
+  port: 9012
+  cipher: aes-256-cfb
+  password: xaupMUvhptwxdDUg
+  udp: true
+- name: 🇳🇱 Netherlands 058
+  type: ss
+  server: 82.38.31.219
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 059
+  type: ss
+  server: 82.38.31.183
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 060
+  type: ss
+  server: 82.38.31.205
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 061
+  type: ss
+  server: 82.38.31.214
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇮🇹 Italy 07
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇱🇹 Lithuania 02
+  type: ss
+  server: 195.238.126.20
+  port: 9086
+  cipher: aes-256-cfb
+  password: 37Z4TFCYhfxcpc9Q
+  udp: true
+- name: 🇮🇹 Italy 08
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇧🇬 Bulgaria 02
+  type: ss
+  server: 213.183.63.60
+  port: 9028
+  cipher: aes-256-cfb
+  password: 9eeJ2fwnZA5Fxgz8
+  udp: true
+- name: 🇺🇸 United States 027
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇱🇹 Lithuania 03
+  type: ss
+  server: 195.238.126.20
+  port: 9008
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+  udp: true
+- name: 🇺🇸 United States 028
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 Japan 03
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇩🇪 Germany 06
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇩🇪 Germany 07
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇺🇸 United States 029
+  type: ss
+  server: 45.207.207.25
+  port: 443
+  cipher: aes-256-gcm
+  password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
+  udp: true
+- name: 🇳🇱 Netherlands 062
+  type: ss
+  server: 82.38.31.179
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 063
+  type: ss
+  server: 82.38.31.190
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 064
+  type: ss
+  server: 82.38.31.181
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇮🇹 Italy 09
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇧🇬 Bulgaria 03
+  type: ss
+  server: 213.183.63.60
+  port: 9066
+  cipher: aes-256-cfb
+  password: 2KUaE2a8NWTvuCZ3
+  udp: true
+- name: 🇳🇱 Netherlands 065
+  type: ss
+  server: 193.29.139.147
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 066
+  type: ss
+  server: 82.38.31.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇬🇧 United Kingdom 10
+  type: ss
+  server: 82.38.31.189
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 067
+  type: ss
+  server: 82.38.31.194
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 068
+  type: ss
+  server: 82.38.31.213
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇮🇹 Italy 10
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇧🇬 Bulgaria 04
+  type: ss
+  server: 213.183.63.60
+  port: 9061
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
+  udp: true
+- name: 🇧🇬 Bulgaria 05
+  type: ss
+  server: 213.183.63.60
+  port: 9049
+  cipher: aes-256-cfb
+  password: PRBf4BS2HvJqtWxY
+  udp: true
+- name: 🇱🇹 Lithuania 04
+  type: ss
+  server: 195.238.126.20
+  port: 9078
+  cipher: aes-256-cfb
+  password: JCJpbRbQZNw9XFZG
+  udp: true
+- name: 🇱🇹 Lithuania 05
+  type: ss
+  server: 195.238.126.20
+  port: 9068
+  cipher: aes-256-cfb
+  password: mwgRg9hRq3b4Qnwb
+  udp: true
+- name: 🇺🇸 United States 030
+  type: ss
+  server: 185.215.132.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 031
+  type: ss
+  server: 185.215.132.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 United States 032
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇰🇷 South Korea 01
+  type: ss
+  server: 218.237.185.234
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇨🇦 Canada 04
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇦 Canada 05
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 Canada 06
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇮🇹 Italy 11
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 Netherlands 069
+  type: ss
+  server: 82.38.31.206
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 070
+  type: ss
+  server: 82.38.31.208
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 Netherlands 071
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇱🇹 Lithuania 06
+  type: ss
+  server: 195.238.126.20
+  port: 9011
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  udp: true
+- name: 🇱🇹 Lithuania 07
+  type: ss
+  server: 195.238.126.20
+  port: 9002
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
+  udp: true
+- name: 🇧🇬 Bulgaria 06
+  type: ss
+  server: 213.183.63.60
+  port: 9054
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+  udp: true
+- name: 🇳🇴 Norway 01
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇺🇸 United States 033
+  type: ss
+  server: 95.215.201.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇯🇵 Japan 04
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 Japan 05
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇨🇦 Canada 07
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇺🇸 United States 034
+  type: ss
+  server: 15.204.247.244
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇧🇬 Bulgaria 07
+  type: ss
+  server: 213.183.63.60
+  port: 9030
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+  udp: true
+- name: 🇧🇬 Bulgaria 08
+  type: ss
+  server: 213.183.63.60
+  port: 9098
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  udp: true
+- name: 🇰🇷 South Korea 02
+  type: ss
+  server: 211.178.105.134
+  port: 6123
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇨🇦 Canada 08
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇺🇸 United States 035
+  type: ss
+  server: 138.197.89.234
+  port: 28960
+  cipher: chacha20-ietf-poly1305
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  udp: true
+- name: 🇱🇹 Lithuania 08
+  type: ss
+  server: 195.238.126.20
+  port: 9001
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+  udp: true
+- name: 🇧🇬 Bulgaria 09
+  type: ss
+  server: 213.183.63.60
+  port: 9085
+  cipher: aes-256-cfb
+  password: 9ej82EKe2gq7gLAM
+  udp: true
+- name: 🇺🇸 United States 036
+  type: ss
+  server: 15.204.247.175
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇨🇦 Canada 09
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇺🇸 United States 037
+  type: ss
+  server: 49.51.39.148
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: LCvps-199-168-136-193-bak8443
+  udp: true
+- name: 🇨🇦 Canada 10
+  type: ss
+  server: 51.79.64.198
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 Canada 11
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇦 Canada 12
+  type: ss
+  server: 51.222.155.32
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 🇺🇸 United States 038
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇺🇸 United States 039
+  type: ss
+  server: 15.204.247.244
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇦🇹 Austria 02
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: 🇺🇸 United States 040
+  type: ss
+  server: 38.145.220.193
+  port: 8443
+  cipher: 2022-blake3-aes-128-gcm
+  password: jUbDNsFamcyDfpm+rI3Zyw==
+  udp: true
+- name: 🇺🇸 United States 041
+  type: ss
+  server: 216.105.168.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: bQZl7HDxSabr1FurTYQHFU
+  udp: true
+- name: 🇺🇸 United States 042
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇯🇵 Japan 06
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+  udp: true
+- name: 🇺🇸 United States 043
+  type: ssr
+  server: 107.151.182.253
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  protocol: origin
+  obfs: plain
+  udp: true
+- name: 🇩🇪 Germany 08
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.iloverussia2026.com
+  client-fingerprint: chrome
+- name: 🇩🇪 Germany 09
+  type: hysteria2
+  server: derfderf.ru
+  port: 12824
+  password: d62s7ghfehm742us
+  sni: derfderf.ru
+- name: 🇫🇷 France 01
+  type: hysteria2
+  server: 173.212.201.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 173.212.201.85
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 01
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21021
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 Switzerland 02
+  type: hysteria2
+  server: 140.238.213.114
+  port: 50160
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 03
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21154
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇩🇪 Germany 10
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 11
+  type: hysteria2
+  server: 151.243.169.164
+  port: 12824
+  password: d62s7ghfehm742us
+  sni: derfderf.ru
+- name: 🇫🇷 France 02
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 12
+  type: hysteria2
+  server: 5.45.100.100
+  port: 51511
+  password: miaoge110
+  sni: 5.45.100.100
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 13
+  type: trojan
+  server: 193.108.119.78
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.iloverussia2026.com
+  client-fingerprint: chrome
+- name: 🇨🇭 Switzerland 04
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21067
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇫🇷 France 03
+  type: hysteria2
+  server: 51.77.217.70
+  port: 21169
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇩🇪 Germany 14
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.iloverussia2026.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France 04
+  type: hysteria2
+  server: 51.77.217.70
+  port: 21182
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇳🇱 Netherlands 072
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24044
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇳🇱 Netherlands 073
+  type: trojan
+  server: 66.163.127.107
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇫🇷 France 05
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 074
+  type: trojan
+  server: 66.163.127.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇳🇱 Netherlands 075
+  type: hysteria2
+  server: promo2.betust.net
+  port: 443
+  password: 2bc6428196efb899f544d750bea0c06d
+  sni: promo2.betust.net
+- name: 🇳🇱 Netherlands 076
+  type: hysteria2
+  server: 45.91.237.78
+  port: 443
+  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
+  sni: node.aweom.su
+- name: 🇫🇷 France 06
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8445
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇩🇪 Germany 15
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 16
+  type: hysteria2
+  server: 88.99.213.222
+  port: 14444
+  password: mhsl
+  sni: 88.99.213.222
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 077
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: vk.com
+  skip-cert-verify: true
+- name: 🇫🇷 France 07
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: 62.210.7.139
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 05
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33195
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇫🇷 France 08
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  skip-cert-verify: true
+- name: 🇫🇷 France 09
+  type: hysteria2
+  server: 173.212.201.85
+  port: 443
+  password: gf1:gfhysteria2024
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 06
+  type: trojan
+  server: 208.69.78.60
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.yourultimateprofessionalcareerhub.com
+- name: 🇳🇱 Netherlands 078
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37030
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇫🇷 France 10
+  type: hysteria2
+  server: 51.77.217.70
+  port: 33128
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇨🇭 Switzerland 07
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21158
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 Switzerland 08
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21090
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇳🇱 Netherlands 079
+  type: trojan
+  server: 66.163.127.9
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.indyourperfectremotetechjobfromthecomfortofhome.com
+  client-fingerprint: chrome
+- name: 🇳🇱 Netherlands 080
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37186
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇳🇱 Netherlands 081
+  type: hysteria2
+  server: 50.7.38.243
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+- name: 🇳🇱 Netherlands 082
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37181
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇩🇪 Germany 17
+  type: trojan
+  server: 193.108.119.78
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.iloverussia2026.com
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 083
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37132
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇳🇱 Netherlands 084
+  type: trojan
+  server: 66.163.127.154
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.indyourperfectremotetechjobfromthecomfortofhome.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France 11
+  type: hysteria2
+  server: 173.212.201.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.docker.com
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 085
+  type: hysteria2
+  server: promo.betust.net
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+- name: 🇳🇱 Netherlands 086
+  type: hysteria2
+  server: hy2.aspidnet.xyz
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇳🇱 Netherlands 087
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37043
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇩🇪 Germany 18
+  type: hysteria2
+  server: 5.45.100.100
+  port: 51511
+  password: miaoge110
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇬🇧 United Kingdom 11
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇩🇪 Germany 19
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: supervpn.super.com
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 09
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21000
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  ports: 21000-21199,33000-33199
+- name: 🇳🇱 Netherlands 088
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 5.129.235.85
+  skip-cert-verify: true
+- name: 🇫🇷 France 12
+  type: hysteria2
+  server: 51.77.217.70
+  port: 21000
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  ports: 21000-21199,33000-33199
+- name: 🇨🇭 Switzerland 10
+  type: trojan
+  server: 208.69.78.60
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+- name: 🇳🇱 Netherlands 089
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37066
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇫🇷 France 13
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8447
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇨🇭 Switzerland 11
+  type: hysteria2
+  server: 140.238.213.114
+  port: 50160
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 12
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+- name: 🇨🇭 Switzerland 13
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33025
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇩🇪 Germany 20
+  type: hysteria2
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 18.193.79.104
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 14
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21047
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇩🇪 Germany 21
+  type: trojan
+  server: 193.108.119.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.iloverussia2026.com
+  client-fingerprint: chrome
+- name: 🇩🇪 Germany 22
+  type: trojan
+  server: 193.108.119.78
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.iloverussia2026.com
+- name: 🇳🇱 Netherlands 090
+  type: hysteria2
+  server: 141.0.187.15
+  port: 443
+  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
+  sni: crt.onecloudstream.com
+- name: 🇫🇷 France 14
+  type: hysteria2
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇷🇴 Romania 01
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.amazon.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 23
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 24
+  type: hysteria2
+  server: 18.153.65.67
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇫🇷 France 15
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 25
+  type: hysteria2
+  server: 3.76.203.180
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.203.180
+  skip-cert-verify: true
+- name: 🇬🇧 United Kingdom 12
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇸🇪 Sweden 01
+  type: trojan
+  server: 70.34.207.14
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+- name: 🇩🇪 Germany 26
+  type: hysteria2
+  server: 88.99.213.222
+  port: 14444
+  password: mhsl
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 27
+  type: trojan
+  server: 193.108.119.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.iloverussia2026.com
+- name: 🇩🇪 Germany 28
+  type: trojan
+  server: 193.108.119.78
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.iloverussia2026.com
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 03
+  type: hysteria2
+  server: 13.143.188.142
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+- name: 🇩🇪 Germany 29
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.iloverussia2026.com
+- name: 🇨🇭 Switzerland 15
+  type: trojan
+  server: 208.69.78.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France 16
+  type: hysteria2
+  server: 51.77.217.70
+  port: 8446
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇵🇱 Poland 04
+  type: ss
+  server: pl140.vpnbook.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
+- name: 🇨🇭 Switzerland 16
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 17
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33130
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇬🇧 United Kingdom 13
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+- name: 🇳🇱 Netherlands 091
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24146
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇳🇱 Netherlands 092
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇨🇭 Switzerland 18
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+- name: 🇳🇱 Netherlands 093
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: www.linux.com
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 094
+  type: hysteria2
+  server: promo.betust.net
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+- name: 🇩🇪 Germany 30
+  type: hysteria2
+  server: 5.45.100.100
+  port: 51511
+  password: miaoge110
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 19
+  type: hysteria2
+  server: 140.238.213.114
+  port: 50160
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: 140.238.213.114
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 095
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇨🇭 Switzerland 20
+  type: hysteria2
+  server: 208.69.78.217
+  port: 21084
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇫🇷 France 17
+  type: vmess
+  server: 2001:bc8:32d7:1a9::3
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+- name: 🇳🇱 Netherlands 096
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: speedtest.tinkoff.ru
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 21
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33092
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇫🇮 Finland 01
+  type: vmess
+  server: 185.212.149.7
+  port: 52080
+  uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /3x
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+- name: 🇵🇱 Poland 05
+  type: hysteria2
+  server: pl3.nexfile.net
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl3.nexfile.net
+- name: 🇨🇭 Switzerland 22
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33133
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇩🇪 Germany 31
+  type: hysteria2
+  server: derfderf.ru
+  port: 12824
+  password: d62s7ghfehm742us
+- name: 🇫🇷 France 18
+  type: hysteria2
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 06
+  type: hysteria2
+  server: 13.143.189.105
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 097
+  type: trojan
+  server: 66.163.127.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇷🇴 Romania 02
+  type: hysteria2
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇩🇪 Germany 32
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 07
+  type: hysteria2
+  server: 13.143.189.146
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl3.nexfile.net
+- name: 🇩🇪 Germany 33
+  type: hysteria2
+  server: 3.76.221.4
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 098
+  type: trojan
+  server: 66.163.127.215
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇳🇱 Netherlands 099
+  type: hysteria2
+  server: promo2.betust.net
+  port: 443
+  password: 2bc6428196efb899f544d750bea0c06d
+  sni: promo2.betust.net
+  alpn:
+  - h3
+- name: 🇨🇭 Switzerland 23
+  type: trojan
+  server: 208.69.78.208
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇷🇴 Romania 03
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: 185.156.44.99
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 100
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇹🇷 Turkey 01
+  type: hysteria2
+  server: 153.56.210.134
+  port: 34121
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+- name: 🇫🇷 France 19
+  type: vmess
+  server: 2001:bc8:32d7:1a9::2
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang?ed
+- name: 🇩🇪 Germany 34
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 35
+  type: hysteria2
+  server: 18.153.65.67
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 18.153.65.67
+  skip-cert-verify: true
+- name: 🇬🇧 United Kingdom 14
+  type: vmess
+  server: 149.7.16.228
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xmfhlpy.com
+- name: 🇷🇴 Romania 04
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 36
+  type: hysteria2
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 37
+  type: hysteria2
+  server: 3.76.221.4
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 38
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇸🇪 Sweden 02
+  type: trojan
+  server: 70.34.207.14
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  client-fingerprint: chrome
+- name: 🇩🇪 Germany 39
+  type: hysteria2
+  server: 3.76.203.180
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇬🇧 United Kingdom 15
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 57.129.132.223
+- name: 🇫🇮 Finland 02
+  type: hysteria2
+  server: 179.253.82.47
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: fl3.nexfile.net
+- name: 🇩🇪 Germany 40
+  type: hysteria2
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 41
+  type: hysteria2
+  server: 18.153.65.67
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 08
+  type: hysteria2
+  server: 13.143.189.105
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl2.nexfile.net
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 42
+  type: hysteria2
+  server: 88.99.213.222
+  port: 14444
+  password: mhsl
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 24
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33152
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇬🇧 United Kingdom 16
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇩🇪 Germany 43
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.iloverussia2026.com
+- name: 🇳🇱 Netherlands 101
+  type: trojan
+  server: 66.163.127.215
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.indyourperfectremotetechjobfromthecomfortofhome.com
+  client-fingerprint: chrome
+- name: 🇬🇧 United Kingdom 17
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇸🇪 Sweden 03
+  type: vmess
+  server: 138.199.55.230
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xmfhlpy.com
+- name: 🇬🇧 United Kingdom 18
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇷🇴 Romania 05
+  type: hysteria2
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇨🇭 Switzerland 25
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33042
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇳🇱 Netherlands 102
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24050
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇺🇸 United States 044
+  type: hysteria2
+  server: promo3.goonars.com
+  port: 443
+  password: 63e1b9462d708b56d5d5a0267cffecdc
+  sni: promo3.goonars.com
+- name: 🇩🇪 Germany 44
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.iloverussia2026.com
+- name: 🇳🇱 Netherlands 103
+  type: hysteria2
+  server: 50.7.38.243
+  port: 443
+  password: d4ca9415f0eac7897472e1e5b86d2e96
+  sni: promo.betust.net
+  skip-cert-verify: true
+- name: 🇪🇸 Spain 01
+  type: trojan
+  server: 66.163.118.131
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.discovergreatjobsandadvanceyourcareer.com
+- name: 🇪🇸 Spain 02
+  type: trojan
+  server: 66.163.118.251
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
+- name: 🇪🇸 Spain 03
+  type: trojan
+  server: 66.163.118.131
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.discovergreatjobsandadvanceyourcareer.com
+- name: 🇷🇴 Romania 06
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇷🇴 Romania 07
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 26
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33077
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 Switzerland 27
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33013
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇷🇴 Romania 08
+  type: hysteria2
+  server: 162.249.125.133
+  port: 443
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇪🇸 Spain 04
+  type: trojan
+  server: 66.163.118.131
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.discovergreatjobsandadvanceyourcareer.com
+  client-fingerprint: chrome
+- name: 🇵🇱 Poland 09
+  type: hysteria2
+  server: 13.143.189.96
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl3.nexfile.net
+- name: 🇺🇸 United States 045
+  type: hysteria2
+  server: 88.216.195.188
+  port: 443
+  password: 63e1b9462d708b56d5d5a0267cffecdc
+  sni: promo3.goonars.com
+- name: 🇬🇧 United Kingdom 19
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇩🇪 Germany 45
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.iloverussia2026.com
+- name: 🇵🇱 Poland 10
+  type: hysteria2
+  server: 13.143.188.142
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+- name: 🇺🇸 United States 046
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇩🇪 Germany 46
+  type: hysteria2
+  server: 3.76.203.180
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇹🇷 Turkey 02
+  type: hysteria2
+  server: 153.56.210.134
+  port: 38045
+  password: a81a7b45-dd70-42ef-822f-ef467f944382
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 642516f2-f9bd-41ce-9904-dee699c39cf9
+- name: 🇳🇱 Netherlands 104
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇫🇷 France 20
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇺🇸 United States 047
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 048
+  type: hysteria2
+  server: 35172c9b-tmm5c0-u10a65-1os43.los.hyhuawei.com
+  port: 443
+  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  sni: 35172c9b-tmm5c0-u10a65-1os43.los.hyhuawei.com
+- name: 🇩🇪 Germany 47
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.69.232.199
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 11
+  type: hysteria2
+  server: 13.143.189.143
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl3.nexfile.net
+- name: 🇺🇸 United States 049
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  udp: true
+- name: 🇺🇸 United States 050
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇳🇱 Netherlands 105
+  type: trojan
+  server: 66.163.127.107
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.indyourperfectremotetechjobfromthecomfortofhome.com
+  client-fingerprint: chrome
+- name: 🇳🇱 Netherlands 106
+  type: hysteria2
+  server: hy2.aspidnet.xyz
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- name: 🇹🇷 Turkey 03
+  type: hysteria2
+  server: 153.56.210.134
+  port: 57251
+  password: ff0343ad-1c9f-4986-8c62-c01935b508ca
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 0ee2089e-70df-4c30-bfea-1fb9be61d93e
+- name: 🇺🇸 United States 051
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇳🇱 Netherlands 107
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24062
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇨🇭 Switzerland 28
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+- name: 🇫🇷 France 21
+  type: hysteria2
+  server: 62.210.147.2
+  port: 43115
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 48
+  type: trojan
+  server: 193.108.119.193
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.iloverussia2026.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France 22
+  type: hysteria2
+  server: 13.36.234.11
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: 🇳🇱 Netherlands 108
+  type: trojan
+  server: 66.163.127.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇳🇱 Netherlands 109
+  type: trojan
+  server: 66.163.127.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇺🇸 United States 052
+  type: hysteria2
+  server: 6312058b-tmm5c0-tubliy-1la7v.los.hyhuawei.com
+  port: 443
+  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  sni: 6312058b-tmm5c0-tubliy-1la7v.los.hyhuawei.com
+- name: 🇳🇱 Netherlands 110
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24111
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇩🇪 Germany 49
+  type: trojan
+  server: 193.108.119.193
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.iloverussia2026.com
+- name: 🇳🇱 Netherlands 111
+  type: hysteria2
+  server: 51.15.16.68
+  port: 37075
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+- name: 🇨🇦 Canada 13
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 053
+  type: hysteria2
+  server: 186.246.18.62
+  port: 443
+  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
+  sni: hy.cardlist24.shop
+- name: 🇫🇷 France 23
+  type: vmess
+  server: 2001:bc8:32d7:1a9::3
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇺🇸 United States 054
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 12
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+- name: 🇺🇸 United States 055
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+- name: 🇺🇸 United States 056
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇦 Canada 14
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 057
+  type: hysteria2
+  server: 7498a61c-tmm5c0-u093mf-1mina.los.hyhuawei.com
+  port: 443
+  password: 367e233c-2f54-11ee-9ae1-f23c9164ca5d
+  sni: 7498a61c-tmm5c0-u093mf-1mina.los.hyhuawei.com
+- name: 🇵🇱 Poland 13
+  type: ss
+  server: pl134.vpnbook.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
+- name: 🇩🇪 Germany 50
+  type: hysteria2
+  server: 3.69.232.199
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇨🇦 Canada 15
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 058
+  type: hysteria2
+  server: 163.192.14.135
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 14
+  type: hysteria2
+  server: 13.143.188.143
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+  skip-cert-verify: true
+- name: 🇫🇷 France 24
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇺🇸 United States 059
+  type: hysteria2
+  server: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+  port: 443
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  sni: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+- name: 🇺🇸 United States 060
+  type: hysteria2
+  server: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+  port: 443
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  sni: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+- name: 🇺🇸 United States 061
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 062
+  type: hysteria2
+  server: promo3.goonars.com
+  port: 443
+  password: 63e1b9462d708b56d5d5a0267cffecdc
+  sni: promo3.goonars.com
+  alpn:
+  - h3
+- name: 🇷🇴 Romania 09
+  type: hysteria2
+  server: 162.249.125.133
+  port: 443
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇺🇸 United States 063
+  type: hysteria2
+  server: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+  port: 443
+  password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  sni: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+- name: 🇺🇸 United States 064
+  type: hysteria2
+  server: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
+  port: 443
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  sni: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
+- name: 🇨🇭 Switzerland 29
+  type: hysteria2
+  server: 152.67.75.161
+  port: 443
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+- name: 🇺🇸 United States 065
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  skip-cert-verify: true
+- name: 🇫🇮 Finland 03
+  type: hysteria2
+  server: 144.31.109.158
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: fl3.nexfile.net
+- name: 🇸🇬 Singapore 09
+  type: hysteria2
+  server: 138.2.73.238
+  port: 50160
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 51
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇺🇸 United States 066
+  type: hysteria2
+  server: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
+  port: 443
+  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  sni: 03aa25ad-tmm5c0-tmj4pk-1kcpe.los.hyhuawei.com
+- name: 🇫🇮 Finland 04
+  type: vmess
+  server: 185.212.149.7
+  port: 2053
+  uuid: aeb3c019-ae83-4677-af97-846baa787ad5
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /3x
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+- name: 🇨🇦 Canada 16
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇩🇪 Germany 52
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.iloverussia2026.com
+- name: 🇺🇸 United States 067
+  type: hysteria2
+  server: 4cbb5b88-tm96o0-tnhquc-1j0a4.los.hyhuawei.com
+  port: 443
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  sni: 4cbb5b88-tm96o0-tnhquc-1j0a4.los.hyhuawei.com
+- name: 🇨🇦 Canada 17
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇩🇪 Germany 53
+  type: hysteria2
+  server: 18.193.79.104
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇨🇦 Canada 18
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 068
+  type: hysteria2
+  server: 66.94.121.46
+  port: 443
+  password: gf1:gfhysteria2024
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 30
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+  client-fingerprint: chrome
+- name: 🇨🇦 Canada 19
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇵🇱 Poland 15
+  type: hysteria2
+  server: bl1.nexfile.net
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: bl1.nexfile.net
+  alpn:
+  - h3
+- name: 🇺🇸 United States 069
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+- name: 🇺🇸 United States 070
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇦 Canada 20
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇭 Switzerland 31
+  type: hysteria2
+  server: 140.238.213.114
+  port: 50160
+  password: 84a506ca5aca505696a454d828420b3f
+  skip-cert-verify: true
+- name: 🇫🇷 France 25
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇺🇸 United States 071
+  type: hysteria2
+  server: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
+  port: 443
+  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  sni: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
+- name: 🇺🇸 United States 072
+  type: hysteria2
+  server: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
+  port: 443
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  sni: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
+- name: 🇳🇱 Netherlands 112
+  type: trojan
+  server: 66.163.127.155
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: indyourperfectremotetechjobfromthecomfortofhome.com
+- name: 🇺🇸 United States 073
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇭 Switzerland 32
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33117
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇺🇸 United States 074
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇭🇰 Hong Kong 01
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇹🇼 Taiwan 01
+  type: hysteria2
+  server: 160.187.100.109
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇭🇰 Hong Kong 02
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇸🇬 Singapore 10
+  type: hysteria2
+  server: 138.2.73.238
+  port: 50160
+  password: f87376e17da040ed04c9665ce8972930
+  skip-cert-verify: true
+- name: 🇫🇷 France 26
+  type: vmess
+  server: 2001:bc8:32d7:1a9::3
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇹🇼 Taiwan 02
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vk.com
+  skip-cert-verify: true
+- name: 🇨🇭 Switzerland 33
+  type: hysteria2
+  server: 208.69.78.217
+  port: 33187
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇹🇼 Taiwan 03
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 54
+  type: hysteria2
+  server: 18.153.65.67
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇹🇼 Taiwan 04
+  type: hysteria2
+  server: 160.187.100.109
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇹🇼 Taiwan 05
+  type: hysteria2
+  server: 103.115.109.49
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
+  skip-cert-verify: true
+- name: 🇺🇸 United States 075
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇦 Canada 21
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 076
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇫🇷 France 27
+  type: vmess
+  server: 104.21.15.251
+  port: 443
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: www.windowssearchtools.com
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.windowssearchtools.com
+- name: 🇫🇮 Finland 05
+  type: vmess
+  server: 185.212.149.7
+  port: 52080
+  uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /3x
+- name: 🇹🇼 Taiwan 06
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: 🇨🇦 Canada 22
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇩🇪 Germany 55
+  type: hysteria2
+  server: 3.76.203.180
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇺🇸 United States 077
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 078
+  type: hysteria2
+  server: 163.192.14.135
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇺🇸 United States 079
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: none
+  udp: true
+- name: 🇭🇰 Hong Kong 03
+  type: hysteria2
+  server: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
+  port: 443
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  sni: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇷🇴 Romania 10
+  type: hysteria2
+  server: 185.156.44.99
+  port: 443
+  password: gf1:gfhysteria2024
+  skip-cert-verify: true
+- name: 🇺🇸 United States 080
+  type: trojan
+  server: 216.152.155.131
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+- name: 🇺🇸 United States 081
+  type: trojan
+  server: 66.163.122.113
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+- name: 🇺🇸 United States 082
+  type: trojan
+  server: 216.152.155.23
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  client-fingerprint: chrome
+- name: 🇹🇼 Taiwan 07
+  type: hysteria2
+  server: 103.115.109.49
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇺🇸 United States 083
+  type: hysteria2
+  server: 53edf574-tmm5c0-tpftcp-13x18.los.hyhuawei.com
+  port: 443
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  sni: 53edf574-tmm5c0-tpftcp-13x18.los.hyhuawei.com
+- name: 🇭🇰 Hong Kong 04
+  type: hysteria2
+  server: 202.146.222.89
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vk.com
+  skip-cert-verify: true
+- name: 🇬🇧 United Kingdom 20
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇺🇸 United States 084
+  type: hysteria2
+  server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
+  port: 443
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
+- name: 🇨🇦 Canada 23
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇳🇱 Netherlands 113
+  type: hysteria2
+  server: 51.15.16.68
+  port: 24000
+  password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ypvL8T4HFIBLoH8q
+  ports: 24000-24199,37000-37199
+- name: 🇹🇼 Taiwan 08
+  type: hysteria2
+  server: 160.187.100.109
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇺🇸 United States 085
+  type: hysteria2
+  server: hy.cardlist24.shop
+  port: 443
+  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
+  sni: hy.cardlist24.shop
+- name: 🇩🇪 Germany 56
+  type: hysteria2
+  server: 3.76.221.4
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 3.76.221.4
+  skip-cert-verify: true
+- name: 🇺🇸 United States 086
+  type: hysteria2
+  server: 25188aad-tm3mo0-unh4sc-xm0q.los.hyhuawei.com
+  port: 443
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  sni: 25188aad-tm3mo0-unh4sc-xm0q.los.hyhuawei.com
+- name: 🇺🇸 United States 087
+  type: trojan
+  server: 216.152.156.42
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+- name: 🇫🇷 France 28
+  type: vmess
+  server: 2001:bc8:32d7:1a9::2
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- name: 🇺🇸 United States 088
+  type: hysteria2
+  server: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
+  port: 443
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  sni: 24407910-tmm5c0-trnd2c-jjv2.los.hyhuawei.com
+- name: 🇭🇰 Hong Kong 05
+  type: hysteria2
+  server: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
+  port: 443
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  sni: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇩🇪 Germany 57
+  type: hysteria2
+  server: 3.76.221.4
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+- name: 🇭🇰 Hong Kong 06
+  type: hysteria2
+  server: 202.146.222.89
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇺🇸 United States 089
+  type: trojan
+  server: 170.101.101.131
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 🇺🇸 United States 090
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇭🇰 Hong Kong 07
+  type: hysteria2
+  server: 202.146.222.174
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇨🇦 Canada 24
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 091
+  type: trojan
+  server: 170.101.101.211
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 🇺🇸 United States 092
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇭🇰 Hong Kong 08
+  type: hysteria2
+  server: 9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com
+  port: 443
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  sni: 9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com
+- name: 🇵🇱 Poland 16
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+- name: 🇺🇸 United States 093
+  type: trojan
+  server: 216.152.156.49
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+- name: 🇺🇸 United States 094
+  type: vless
+  server: 172.67.199.126
+  port: 2053
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  udp: true
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- name: 🇺🇸 United States 095
+  type: trojan
+  server: 170.101.101.112
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 🇺🇸 United States 096
+  type: trojan
+  server: 170.101.101.53
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 🇹🇼 Taiwan 09
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇺🇸 United States 097
+  type: trojan
+  server: 216.152.155.176
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+- name: 🇺🇸 United States 098
+  type: hysteria2
+  server: 163.192.14.135
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  sni: speedtest.tinkoff.ru
+  skip-cert-verify: true
+- name: 🇸🇬 Singapore 11
+  type: hysteria2
+  server: 138.2.89.249
+  port: 443
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+- name: 🇹🇼 Taiwan 10
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+- name: 🇵🇱 Poland 17
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+- name: 🇺🇸 United States 099
+  type: hysteria2
+  server: 163.192.14.135
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  skip-cert-verify: true
+- name: 🇺🇸 United States 100
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇺🇸 United States 101
+  type: trojan
+  server: 69.164.240.85
+  port: 50875
+  password: nwilryafgkyvuxauc8pz
+  udp: true
+  sni: 69.164.240.85
+  skip-cert-verify: true
+- name: 🇺🇸 United States 102
+  type: trojan
+  server: 216.152.155.176
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: 216.152.155.176
+  client-fingerprint: chrome
+  skip-cert-verify: true
+- name: 🇺🇸 United States 103
+  type: vless
+  server: 172.67.199.126
+  port: 2053
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  udp: true
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- name: 🇺🇸 United States 104
+  type: trojan
+  server: 170.101.101.53
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 🇺🇸 United States 105
+  type: trojan
+  server: 216.152.155.59
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.nextjobopportunityandclaimyouridealrole.com
+- name: 🇺🇸 United States 106
+  type: hysteria2
+  server: 163.192.14.135
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇺🇸 United States 107
+  type: trojan
+  server: 216.152.155.176
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+- name: 🇺🇸 United States 108
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇦 Canada 25
+  type: trojan
+  server: 216.152.147.93
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: connectingpeoplewithgreatjobs.com
+- name: 🇺🇸 United States 109
+  type: trojan
+  server: 216.152.156.81
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+- name: 🇺🇸 United States 110
+  type: trojan
+  server: 170.101.101.67
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 🇺🇸 United States 111
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 🇨🇦 Canada 26
+  type: trojan
+  server: 216.152.147.152
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.connectingpeoplewithgreatjobs.com
+  client-fingerprint: chrome
+- name: 🇺🇸 United States 112
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+- name: 🇺🇸 United States 113
+  type: trojan
+  server: 216.152.156.81
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: 216.152.156.81
+  skip-cert-verify: true
+proxy-groups:
+- name: 🚀 Proxy
+  type: select
+  proxies:
+  - ♻️ Auto
+  - 🇳🇱 Netherlands
+  - 🇺🇸 United States
+  - 🇩🇪 Germany
+  - 🇨🇭 Switzerland
+  - 🇫🇷 France
+  - 🇨🇦 Canada
+  - 🇬🇧 United Kingdom
+  - 🇵🇱 Poland
+  - 🇮🇹 Italy
+  - 🇸🇬 Singapore
+  - 🇷🇴 Romania
+  - 🇹🇼 Taiwan
+  - 🇧🇬 Bulgaria
+  - 🇱🇹 Lithuania
+  - 🇭🇰 Hong Kong
+  - 🇯🇵 Japan
+  - 🇫🇮 Finland
+  - 🇪🇸 Spain
+  - 🇸🇪 Sweden
+  - 🇹🇷 Turkey
+  - 🇳🇱 Netherlands 001
+  - 🇮🇹 Italy 01
+  - 🇳🇱 Netherlands 002
+  - 🇳🇱 Netherlands 003
+  - 🇳🇱 Netherlands 004
+  - 🇳🇱 Netherlands 005
+  - 🇳🇱 Netherlands 006
+  - 🇳🇱 Netherlands 007
+  - 🇳🇱 Netherlands 008
+  - 🇳🇱 Netherlands 009
+  - 🇮🇹 Italy 02
+  - 🇳🇱 Netherlands 010
+  - 🇳🇱 Netherlands 011
+  - 🇳🇱 Netherlands 012
+  - 🇳🇱 Netherlands 013
+  - 🇳🇱 Netherlands 014
+  - 🇳🇱 Netherlands 015
+  - 🇳🇱 Netherlands 016
+  - 🇳🇱 Netherlands 017
+  - 🇳🇱 Netherlands 018
+  - 🇬🇧 United Kingdom 01
+  - 🇮🇹 Italy 03
+  - 🇮🇹 Italy 04
+  - 🇦🇹 Austria 01
+  - 🇬🇧 United Kingdom 02
+  - 🇬🇧 United Kingdom 03
+  - 🇳🇱 Netherlands 019
+  - 🇳🇱 Netherlands 020
+  - 🇩🇪 Germany 01
+  - 🇬🇧 United Kingdom 04
+  - 🇳🇱 Netherlands 021
+  - 🇳🇱 Netherlands 022
+  - 🇳🇱 Netherlands 023
+  - 🇳🇱 Netherlands 024
+  - 🇳🇱 Netherlands 025
+  - 🇳🇱 Netherlands 026
+  - 🇳🇱 Netherlands 027
+  - 🇮🇹 Italy 05
+  - 🇳🇱 Netherlands 028
+  - 🇳🇱 Netherlands 029
+  - 🇳🇱 Netherlands 030
+  - 🇳🇱 Netherlands 031
+  - 🇳🇱 Netherlands 032
+  - 🇳🇱 Netherlands 033
+  - 🇳🇱 Netherlands 034
+  - 🇳🇱 Netherlands 035
+  - 🇳🇱 Netherlands 036
+  - 🇳🇱 Netherlands 037
+  - 🇳🇱 Netherlands 038
+  - 🇳🇱 Netherlands 039
+  - 🇩🇪 Germany 02
+  - 🇬🇧 United Kingdom 05
+  - 🇩🇪 Germany 03
+  - 🇳🇱 Netherlands 040
+  - 🇬🇧 United Kingdom 06
+  - 🇳🇱 Netherlands 041
+  - 🇳🇱 Netherlands 042
+  - 🇳🇱 Netherlands 043
+  - 🇬🇧 United Kingdom 07
+  - 🇳🇱 Netherlands 044
+  - 🇳🇱 Netherlands 045
+  - 🇺🇸 United States 001
+  - 🇩🇪 Germany 04
+  - 🇬🇧 United Kingdom 08
+  - 🇺🇸 United States 002
+  - 🇺🇸 United States 003
+  - 🇧🇬 Bulgaria 01
+  - 🇺🇸 United States 004
+  - 🇺🇸 United States 005
+  - 🇺🇸 United States 006
+  - 🇺🇸 United States 007
+  - 🇸🇬 Singapore 01
+  - 🇺🇸 United States 008
+  - 🇺🇸 United States 009
+  - 🇺🇸 United States 010
+  - 🇺🇸 United States 011
+  - 🇨🇦 Canada 01
+  - 🇨🇦 Canada 02
+  - 🇺🇸 United States 012
+  - 🇺🇸 United States 013
+  - 🇸🇬 Singapore 02
+  - 🇺🇸 United States 014
+  - 🇺🇸 United States 015
+  - 🇺🇸 United States 016
+  - 🇺🇸 United States 017
+  - 🇸🇬 Singapore 03
+  - 🇺🇸 United States 018
+  - 🇨🇦 Canada 03
+  - 🇺🇸 United States 019
+  - 🇺🇸 United States 020
+  - 🇺🇸 United States 021
+  - 🇸🇬 Singapore 04
+  - 🇺🇸 United States 022
+  - 🇺🇸 United States 023
+  - 🇺🇸 United States 024
+  - 🇸🇬 Singapore 05
+  - 🇺🇸 United States 025
+  - 🇯🇵 Japan 01
+  - 🇸🇬 Singapore 06
+  - 🇯🇵 Japan 02
+  - 🇺🇸 United States 026
+  - 🇸🇬 Singapore 07
+  - 🇸🇬 Singapore 08
+  - 🇳🇱 Netherlands 046
+  - 🇳🇱 Netherlands 047
+  - 🇳🇱 Netherlands 048
+  - 🇬🇧 United Kingdom 09
+  - 🇵🇱 Poland 01
+  - 🇳🇱 Netherlands 049
+  - 🇵🇱 Poland 02
+  - 🇳🇱 Netherlands 050
+  - 🇮🇹 Italy 06
+  - 🇳🇱 Netherlands 051
+  - 🇩🇪 Germany 05
+  - 🇳🇱 Netherlands 052
+  - 🇳🇱 Netherlands 053
+  - 🇳🇱 Netherlands 054
+  - 🇳🇱 Netherlands 055
+  - 🇳🇱 Netherlands 056
+  - 🇳🇱 Netherlands 057
+  - 🇱🇹 Lithuania 01
+  - 🇳🇱 Netherlands 058
+  - 🇳🇱 Netherlands 059
+  - 🇳🇱 Netherlands 060
+  - 🇳🇱 Netherlands 061
+  - 🇮🇹 Italy 07
+  - 🇱🇹 Lithuania 02
+  - 🇮🇹 Italy 08
+  - 🇧🇬 Bulgaria 02
+  - 🇺🇸 United States 027
+  - 🇱🇹 Lithuania 03
+  - 🇺🇸 United States 028
+  - 🇯🇵 Japan 03
+  - 🇩🇪 Germany 06
+  - 🇩🇪 Germany 07
+  - 🇺🇸 United States 029
+  - 🇳🇱 Netherlands 062
+  - 🇳🇱 Netherlands 063
+  - 🇳🇱 Netherlands 064
+  - 🇮🇹 Italy 09
+  - 🇧🇬 Bulgaria 03
+  - 🇳🇱 Netherlands 065
+  - 🇳🇱 Netherlands 066
+  - 🇬🇧 United Kingdom 10
+  - 🇳🇱 Netherlands 067
+  - 🇳🇱 Netherlands 068
+  - 🇮🇹 Italy 10
+  - 🇧🇬 Bulgaria 04
+  - 🇧🇬 Bulgaria 05
+  - 🇱🇹 Lithuania 04
+  - 🇱🇹 Lithuania 05
+  - 🇺🇸 United States 030
+  - 🇺🇸 United States 031
+  - 🇺🇸 United States 032
+  - 🇰🇷 South Korea 01
+  - 🇨🇦 Canada 04
+  - 🇨🇦 Canada 05
+  - 🇨🇦 Canada 06
+  - 🇮🇹 Italy 11
+  - 🇳🇱 Netherlands 069
+  - 🇳🇱 Netherlands 070
+  - 🇳🇱 Netherlands 071
+  - 🇱🇹 Lithuania 06
+  - 🇱🇹 Lithuania 07
+  - 🇧🇬 Bulgaria 06
+  - 🇳🇴 Norway 01
+  - 🇺🇸 United States 033
+  - 🇯🇵 Japan 04
+  - 🇯🇵 Japan 05
+  - 🇨🇦 Canada 07
+  - 🇺🇸 United States 034
+  - 🇧🇬 Bulgaria 07
+  - 🇧🇬 Bulgaria 08
+  - 🇰🇷 South Korea 02
+  - 🇨🇦 Canada 08
+  - 🇺🇸 United States 035
+  - 🇱🇹 Lithuania 08
+  - 🇧🇬 Bulgaria 09
+  - 🇺🇸 United States 036
+  - 🇨🇦 Canada 09
+  - 🇺🇸 United States 037
+  - 🇨🇦 Canada 10
+  - 🇨🇦 Canada 11
+  - 🇨🇦 Canada 12
+  - 🇺🇸 United States 038
+  - 🇺🇸 United States 039
+  - 🇦🇹 Austria 02
+  - 🇺🇸 United States 040
+  - 🇺🇸 United States 041
+  - 🇺🇸 United States 042
+  - 🇯🇵 Japan 06
+  - 🇺🇸 United States 043
+  - 🇩🇪 Germany 08
+  - 🇩🇪 Germany 09
+  - 🇫🇷 France 01
+  - 🇨🇭 Switzerland 01
+  - 🇨🇭 Switzerland 02
+  - 🇨🇭 Switzerland 03
+  - 🇩🇪 Germany 10
+  - 🇩🇪 Germany 11
+  - 🇫🇷 France 02
+  - 🇩🇪 Germany 12
+  - 🇩🇪 Germany 13
+  - 🇨🇭 Switzerland 04
+  - 🇫🇷 France 03
+  - 🇩🇪 Germany 14
+  - 🇫🇷 France 04
+  - 🇳🇱 Netherlands 072
+  - 🇳🇱 Netherlands 073
+  - 🇫🇷 France 05
+  - 🇳🇱 Netherlands 074
+  - 🇳🇱 Netherlands 075
+  - 🇳🇱 Netherlands 076
+  - 🇫🇷 France 06
+  - 🇩🇪 Germany 15
+  - 🇩🇪 Germany 16
+  - 🇳🇱 Netherlands 077
+  - 🇫🇷 France 07
+  - 🇨🇭 Switzerland 05
+  - 🇫🇷 France 08
+  - 🇫🇷 France 09
+  - 🇨🇭 Switzerland 06
+  - 🇳🇱 Netherlands 078
+  - 🇫🇷 France 10
+  - 🇨🇭 Switzerland 07
+  - 🇨🇭 Switzerland 08
+  - 🇳🇱 Netherlands 079
+  - 🇳🇱 Netherlands 080
+  - 🇳🇱 Netherlands 081
+  - 🇳🇱 Netherlands 082
+  - 🇩🇪 Germany 17
+  - 🇳🇱 Netherlands 083
+  - 🇳🇱 Netherlands 084
+  - 🇫🇷 France 11
+  - 🇳🇱 Netherlands 085
+  - 🇳🇱 Netherlands 086
+  - 🇳🇱 Netherlands 087
+  - 🇩🇪 Germany 18
+  - 🇬🇧 United Kingdom 11
+  - 🇩🇪 Germany 19
+  - 🇨🇭 Switzerland 09
+  - 🇳🇱 Netherlands 088
+  - 🇫🇷 France 12
+  - 🇨🇭 Switzerland 10
+  - 🇳🇱 Netherlands 089
+  - 🇫🇷 France 13
+  - 🇨🇭 Switzerland 11
+  - 🇨🇭 Switzerland 12
+  - 🇨🇭 Switzerland 13
+  - 🇩🇪 Germany 20
+  - 🇨🇭 Switzerland 14
+  - 🇩🇪 Germany 21
+  - 🇩🇪 Germany 22
+  - 🇳🇱 Netherlands 090
+  - 🇫🇷 France 14
+  - 🇷🇴 Romania 01
+  - 🇩🇪 Germany 23
+  - 🇩🇪 Germany 24
+  - 🇫🇷 France 15
+  - 🇩🇪 Germany 25
+  - 🇬🇧 United Kingdom 12
+  - 🇸🇪 Sweden 01
+  - 🇩🇪 Germany 26
+  - 🇩🇪 Germany 27
+  - 🇩🇪 Germany 28
+  - 🇵🇱 Poland 03
+  - 🇩🇪 Germany 29
+  - 🇨🇭 Switzerland 15
+  - 🇫🇷 France 16
+  - 🇵🇱 Poland 04
+  - 🇨🇭 Switzerland 16
+  - 🇨🇭 Switzerland 17
+  - 🇬🇧 United Kingdom 13
+  - 🇳🇱 Netherlands 091
+  - 🇳🇱 Netherlands 092
+  - 🇨🇭 Switzerland 18
+  - 🇳🇱 Netherlands 093
+  - 🇳🇱 Netherlands 094
+  - 🇩🇪 Germany 30
+  - 🇨🇭 Switzerland 19
+  - 🇳🇱 Netherlands 095
+  - 🇨🇭 Switzerland 20
+  - 🇫🇷 France 17
+  - 🇳🇱 Netherlands 096
+  - 🇨🇭 Switzerland 21
+  - 🇫🇮 Finland 01
+  - 🇵🇱 Poland 05
+  - 🇨🇭 Switzerland 22
+  - 🇩🇪 Germany 31
+  - 🇫🇷 France 18
+  - 🇵🇱 Poland 06
+  - 🇳🇱 Netherlands 097
+  - 🇷🇴 Romania 02
+  - 🇩🇪 Germany 32
+  - 🇵🇱 Poland 07
+  - 🇩🇪 Germany 33
+  - 🇳🇱 Netherlands 098
+  - 🇳🇱 Netherlands 099
+  - 🇨🇭 Switzerland 23
+  - 🇷🇴 Romania 03
+  - 🇳🇱 Netherlands 100
+  - 🇹🇷 Turkey 01
+  - 🇫🇷 France 19
+  - 🇩🇪 Germany 34
+  - 🇩🇪 Germany 35
+  - 🇬🇧 United Kingdom 14
+  - 🇷🇴 Romania 04
+  - 🇩🇪 Germany 36
+  - 🇩🇪 Germany 37
+  - 🇩🇪 Germany 38
+  - 🇸🇪 Sweden 02
+  - 🇩🇪 Germany 39
+  - 🇬🇧 United Kingdom 15
+  - 🇫🇮 Finland 02
+  - 🇩🇪 Germany 40
+  - 🇩🇪 Germany 41
+  - 🇵🇱 Poland 08
+  - 🇩🇪 Germany 42
+  - 🇨🇭 Switzerland 24
+  - 🇬🇧 United Kingdom 16
+  - 🇩🇪 Germany 43
+  - 🇳🇱 Netherlands 101
+  - 🇬🇧 United Kingdom 17
+  - 🇸🇪 Sweden 03
+  - 🇬🇧 United Kingdom 18
+  - 🇷🇴 Romania 05
+  - 🇨🇭 Switzerland 25
+  - 🇳🇱 Netherlands 102
+  - 🇺🇸 United States 044
+  - 🇩🇪 Germany 44
+  - 🇳🇱 Netherlands 103
+  - 🇪🇸 Spain 01
+  - 🇪🇸 Spain 02
+  - 🇪🇸 Spain 03
+  - 🇷🇴 Romania 06
+  - 🇷🇴 Romania 07
+  - 🇨🇭 Switzerland 26
+  - 🇨🇭 Switzerland 27
+  - 🇷🇴 Romania 08
+  - 🇪🇸 Spain 04
+  - 🇵🇱 Poland 09
+  - 🇺🇸 United States 045
+  - 🇬🇧 United Kingdom 19
+  - 🇩🇪 Germany 45
+  - 🇵🇱 Poland 10
+  - 🇺🇸 United States 046
+  - 🇩🇪 Germany 46
+  - 🇹🇷 Turkey 02
+  - 🇳🇱 Netherlands 104
+  - 🇫🇷 France 20
+  - 🇺🇸 United States 047
+  - 🇺🇸 United States 048
+  - 🇩🇪 Germany 47
+  - 🇵🇱 Poland 11
+  - 🇺🇸 United States 049
+  - 🇺🇸 United States 050
+  - 🇳🇱 Netherlands 105
+  - 🇳🇱 Netherlands 106
+  - 🇹🇷 Turkey 03
+  - 🇺🇸 United States 051
+  - 🇳🇱 Netherlands 107
+  - 🇨🇭 Switzerland 28
+  - 🇫🇷 France 21
+  - 🇩🇪 Germany 48
+  - 🇫🇷 France 22
+  - 🇳🇱 Netherlands 108
+  - 🇳🇱 Netherlands 109
+  - 🇺🇸 United States 052
+  - 🇳🇱 Netherlands 110
+  - 🇩🇪 Germany 49
+  - 🇳🇱 Netherlands 111
+  - 🇨🇦 Canada 13
+  - 🇺🇸 United States 053
+  - 🇫🇷 France 23
+  - 🇺🇸 United States 054
+  - 🇵🇱 Poland 12
+  - 🇺🇸 United States 055
+  - 🇺🇸 United States 056
+  - 🇨🇦 Canada 14
+  - 🇺🇸 United States 057
+  - 🇵🇱 Poland 13
+  - 🇩🇪 Germany 50
+  - 🇨🇦 Canada 15
+  - 🇺🇸 United States 058
+  - 🇵🇱 Poland 14
+  - 🇫🇷 France 24
+  - 🇺🇸 United States 059
+  - 🇺🇸 United States 060
+  - 🇺🇸 United States 061
+  - 🇺🇸 United States 062
+  - 🇷🇴 Romania 09
+  - 🇺🇸 United States 063
+  - 🇺🇸 United States 064
+  - 🇨🇭 Switzerland 29
+  - 🇺🇸 United States 065
+  - 🇫🇮 Finland 03
+  - 🇸🇬 Singapore 09
+  - 🇩🇪 Germany 51
+  - 🇺🇸 United States 066
+  - 🇫🇮 Finland 04
+  - 🇨🇦 Canada 16
+  - 🇩🇪 Germany 52
+  - 🇺🇸 United States 067
+  - 🇨🇦 Canada 17
+  - 🇩🇪 Germany 53
+  - 🇨🇦 Canada 18
+  - 🇺🇸 United States 068
+  - 🇨🇭 Switzerland 30
+  - 🇨🇦 Canada 19
+  - 🇵🇱 Poland 15
+  - 🇺🇸 United States 069
+  - 🇺🇸 United States 070
+  - 🇨🇦 Canada 20
+  - 🇨🇭 Switzerland 31
+  - 🇫🇷 France 25
+  - 🇺🇸 United States 071
+  - 🇺🇸 United States 072
+  - 🇳🇱 Netherlands 112
+  - 🇺🇸 United States 073
+  - 🇨🇭 Switzerland 32
+  - 🇺🇸 United States 074
+  - 🇭🇰 Hong Kong 01
+  - 🇹🇼 Taiwan 01
+  - 🇭🇰 Hong Kong 02
+  - 🇸🇬 Singapore 10
+  - 🇫🇷 France 26
+  - 🇹🇼 Taiwan 02
+  - 🇨🇭 Switzerland 33
+  - 🇹🇼 Taiwan 03
+  - 🇩🇪 Germany 54
+  - 🇹🇼 Taiwan 04
+  - 🇹🇼 Taiwan 05
+  - 🇺🇸 United States 075
+  - 🇨🇦 Canada 21
+  - 🇺🇸 United States 076
+  - 🇫🇷 France 27
+  - 🇫🇮 Finland 05
+  - 🇹🇼 Taiwan 06
+  - 🇨🇦 Canada 22
+  - 🇩🇪 Germany 55
+  - 🇺🇸 United States 077
+  - 🇺🇸 United States 078
+  - 🇺🇸 United States 079
+  - 🇭🇰 Hong Kong 03
+  - 🇷🇴 Romania 10
+  - 🇺🇸 United States 080
+  - 🇺🇸 United States 081
+  - 🇺🇸 United States 082
+  - 🇹🇼 Taiwan 07
+  - 🇺🇸 United States 083
+  - 🇭🇰 Hong Kong 04
+  - 🇬🇧 United Kingdom 20
+  - 🇺🇸 United States 084
+  - 🇨🇦 Canada 23
+  - 🇳🇱 Netherlands 113
+  - 🇹🇼 Taiwan 08
+  - 🇺🇸 United States 085
+  - 🇩🇪 Germany 56
+  - 🇺🇸 United States 086
+  - 🇺🇸 United States 087
+  - 🇫🇷 France 28
+  - 🇺🇸 United States 088
+  - 🇭🇰 Hong Kong 05
+  - 🇩🇪 Germany 57
+  - 🇭🇰 Hong Kong 06
+  - 🇺🇸 United States 089
+  - 🇺🇸 United States 090
+  - 🇭🇰 Hong Kong 07
+  - 🇨🇦 Canada 24
+  - 🇺🇸 United States 091
+  - 🇺🇸 United States 092
+  - 🇭🇰 Hong Kong 08
+  - 🇵🇱 Poland 16
+  - 🇺🇸 United States 093
+  - 🇺🇸 United States 094
+  - 🇺🇸 United States 095
+  - 🇺🇸 United States 096
+  - 🇹🇼 Taiwan 09
+  - 🇺🇸 United States 097
+  - 🇺🇸 United States 098
+  - 🇸🇬 Singapore 11
+  - 🇹🇼 Taiwan 10
+  - 🇵🇱 Poland 17
+  - 🇺🇸 United States 099
+  - 🇺🇸 United States 100
+  - 🇺🇸 United States 101
+  - 🇺🇸 United States 102
+  - 🇺🇸 United States 103
+  - 🇺🇸 United States 104
+  - 🇺🇸 United States 105
+  - 🇺🇸 United States 106
+  - 🇺🇸 United States 107
+  - 🇺🇸 United States 108
+  - 🇨🇦 Canada 25
+  - 🇺🇸 United States 109
+  - 🇺🇸 United States 110
+  - 🇺🇸 United States 111
+  - 🇨🇦 Canada 26
+  - 🇺🇸 United States 112
+  - 🇺🇸 United States 113
+  - DIRECT
+- name: ♻️ Auto
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇳🇱 Netherlands 001
+  - 🇮🇹 Italy 01
+  - 🇳🇱 Netherlands 002
+  - 🇳🇱 Netherlands 003
+  - 🇳🇱 Netherlands 004
+  - 🇳🇱 Netherlands 005
+  - 🇳🇱 Netherlands 006
+  - 🇳🇱 Netherlands 007
+  - 🇳🇱 Netherlands 008
+  - 🇳🇱 Netherlands 009
+  - 🇮🇹 Italy 02
+  - 🇳🇱 Netherlands 010
+  - 🇳🇱 Netherlands 011
+  - 🇳🇱 Netherlands 012
+  - 🇳🇱 Netherlands 013
+  - 🇳🇱 Netherlands 014
+  - 🇳🇱 Netherlands 015
+  - 🇳🇱 Netherlands 016
+  - 🇳🇱 Netherlands 017
+  - 🇳🇱 Netherlands 018
+  - 🇬🇧 United Kingdom 01
+  - 🇮🇹 Italy 03
+  - 🇮🇹 Italy 04
+  - 🇦🇹 Austria 01
+  - 🇬🇧 United Kingdom 02
+  - 🇬🇧 United Kingdom 03
+  - 🇳🇱 Netherlands 019
+  - 🇳🇱 Netherlands 020
+  - 🇩🇪 Germany 01
+  - 🇬🇧 United Kingdom 04
+  - 🇳🇱 Netherlands 021
+  - 🇳🇱 Netherlands 022
+  - 🇳🇱 Netherlands 023
+  - 🇳🇱 Netherlands 024
+  - 🇳🇱 Netherlands 025
+  - 🇳🇱 Netherlands 026
+  - 🇳🇱 Netherlands 027
+  - 🇮🇹 Italy 05
+  - 🇳🇱 Netherlands 028
+  - 🇳🇱 Netherlands 029
+  - 🇳🇱 Netherlands 030
+  - 🇳🇱 Netherlands 031
+  - 🇳🇱 Netherlands 032
+  - 🇳🇱 Netherlands 033
+  - 🇳🇱 Netherlands 034
+  - 🇳🇱 Netherlands 035
+  - 🇳🇱 Netherlands 036
+  - 🇳🇱 Netherlands 037
+  - 🇳🇱 Netherlands 038
+  - 🇳🇱 Netherlands 039
+  - 🇩🇪 Germany 02
+  - 🇬🇧 United Kingdom 05
+  - 🇩🇪 Germany 03
+  - 🇳🇱 Netherlands 040
+  - 🇬🇧 United Kingdom 06
+  - 🇳🇱 Netherlands 041
+  - 🇳🇱 Netherlands 042
+  - 🇳🇱 Netherlands 043
+  - 🇬🇧 United Kingdom 07
+  - 🇳🇱 Netherlands 044
+  - 🇳🇱 Netherlands 045
+  - 🇺🇸 United States 001
+  - 🇩🇪 Germany 04
+  - 🇬🇧 United Kingdom 08
+  - 🇺🇸 United States 002
+  - 🇺🇸 United States 003
+  - 🇧🇬 Bulgaria 01
+  - 🇺🇸 United States 004
+  - 🇺🇸 United States 005
+  - 🇺🇸 United States 006
+  - 🇺🇸 United States 007
+  - 🇸🇬 Singapore 01
+  - 🇺🇸 United States 008
+  - 🇺🇸 United States 009
+  - 🇺🇸 United States 010
+  - 🇺🇸 United States 011
+  - 🇨🇦 Canada 01
+  - 🇨🇦 Canada 02
+  - 🇺🇸 United States 012
+  - 🇺🇸 United States 013
+  - 🇸🇬 Singapore 02
+  - 🇺🇸 United States 014
+  - 🇺🇸 United States 015
+  - 🇺🇸 United States 016
+  - 🇺🇸 United States 017
+  - 🇸🇬 Singapore 03
+  - 🇺🇸 United States 018
+  - 🇨🇦 Canada 03
+  - 🇺🇸 United States 019
+  - 🇺🇸 United States 020
+  - 🇺🇸 United States 021
+  - 🇸🇬 Singapore 04
+  - 🇺🇸 United States 022
+  - 🇺🇸 United States 023
+  - 🇺🇸 United States 024
+  - 🇸🇬 Singapore 05
+  - 🇺🇸 United States 025
+  - 🇯🇵 Japan 01
+  - 🇸🇬 Singapore 06
+  - 🇯🇵 Japan 02
+  - 🇺🇸 United States 026
+  - 🇸🇬 Singapore 07
+  - 🇸🇬 Singapore 08
+  - 🇳🇱 Netherlands 046
+  - 🇳🇱 Netherlands 047
+  - 🇳🇱 Netherlands 048
+  - 🇬🇧 United Kingdom 09
+  - 🇵🇱 Poland 01
+  - 🇳🇱 Netherlands 049
+  - 🇵🇱 Poland 02
+  - 🇳🇱 Netherlands 050
+  - 🇮🇹 Italy 06
+  - 🇳🇱 Netherlands 051
+  - 🇩🇪 Germany 05
+  - 🇳🇱 Netherlands 052
+  - 🇳🇱 Netherlands 053
+  - 🇳🇱 Netherlands 054
+  - 🇳🇱 Netherlands 055
+  - 🇳🇱 Netherlands 056
+  - 🇳🇱 Netherlands 057
+  - 🇱🇹 Lithuania 01
+  - 🇳🇱 Netherlands 058
+  - 🇳🇱 Netherlands 059
+  - 🇳🇱 Netherlands 060
+  - 🇳🇱 Netherlands 061
+  - 🇮🇹 Italy 07
+  - 🇱🇹 Lithuania 02
+  - 🇮🇹 Italy 08
+  - 🇧🇬 Bulgaria 02
+  - 🇺🇸 United States 027
+  - 🇱🇹 Lithuania 03
+  - 🇺🇸 United States 028
+  - 🇯🇵 Japan 03
+  - 🇩🇪 Germany 06
+  - 🇩🇪 Germany 07
+  - 🇺🇸 United States 029
+  - 🇳🇱 Netherlands 062
+  - 🇳🇱 Netherlands 063
+  - 🇳🇱 Netherlands 064
+  - 🇮🇹 Italy 09
+  - 🇧🇬 Bulgaria 03
+  - 🇳🇱 Netherlands 065
+  - 🇳🇱 Netherlands 066
+  - 🇬🇧 United Kingdom 10
+  - 🇳🇱 Netherlands 067
+  - 🇳🇱 Netherlands 068
+  - 🇮🇹 Italy 10
+  - 🇧🇬 Bulgaria 04
+  - 🇧🇬 Bulgaria 05
+  - 🇱🇹 Lithuania 04
+  - 🇱🇹 Lithuania 05
+  - 🇺🇸 United States 030
+  - 🇺🇸 United States 031
+  - 🇺🇸 United States 032
+  - 🇰🇷 South Korea 01
+  - 🇨🇦 Canada 04
+  - 🇨🇦 Canada 05
+  - 🇨🇦 Canada 06
+  - 🇮🇹 Italy 11
+  - 🇳🇱 Netherlands 069
+  - 🇳🇱 Netherlands 070
+  - 🇳🇱 Netherlands 071
+  - 🇱🇹 Lithuania 06
+  - 🇱🇹 Lithuania 07
+  - 🇧🇬 Bulgaria 06
+  - 🇳🇴 Norway 01
+  - 🇺🇸 United States 033
+  - 🇯🇵 Japan 04
+  - 🇯🇵 Japan 05
+  - 🇨🇦 Canada 07
+  - 🇺🇸 United States 034
+  - 🇧🇬 Bulgaria 07
+  - 🇧🇬 Bulgaria 08
+  - 🇰🇷 South Korea 02
+  - 🇨🇦 Canada 08
+  - 🇺🇸 United States 035
+  - 🇱🇹 Lithuania 08
+  - 🇧🇬 Bulgaria 09
+  - 🇺🇸 United States 036
+  - 🇨🇦 Canada 09
+  - 🇺🇸 United States 037
+  - 🇨🇦 Canada 10
+  - 🇨🇦 Canada 11
+  - 🇨🇦 Canada 12
+  - 🇺🇸 United States 038
+  - 🇺🇸 United States 039
+  - 🇦🇹 Austria 02
+  - 🇺🇸 United States 040
+  - 🇺🇸 United States 041
+  - 🇺🇸 United States 042
+  - 🇯🇵 Japan 06
+  - 🇺🇸 United States 043
+  - 🇩🇪 Germany 08
+  - 🇩🇪 Germany 09
+  - 🇫🇷 France 01
+  - 🇨🇭 Switzerland 01
+  - 🇨🇭 Switzerland 02
+  - 🇨🇭 Switzerland 03
+  - 🇩🇪 Germany 10
+  - 🇩🇪 Germany 11
+  - 🇫🇷 France 02
+  - 🇩🇪 Germany 12
+  - 🇩🇪 Germany 13
+  - 🇨🇭 Switzerland 04
+  - 🇫🇷 France 03
+  - 🇩🇪 Germany 14
+  - 🇫🇷 France 04
+  - 🇳🇱 Netherlands 072
+  - 🇳🇱 Netherlands 073
+  - 🇫🇷 France 05
+  - 🇳🇱 Netherlands 074
+  - 🇳🇱 Netherlands 075
+  - 🇳🇱 Netherlands 076
+  - 🇫🇷 France 06
+  - 🇩🇪 Germany 15
+  - 🇩🇪 Germany 16
+  - 🇳🇱 Netherlands 077
+  - 🇫🇷 France 07
+  - 🇨🇭 Switzerland 05
+  - 🇫🇷 France 08
+  - 🇫🇷 France 09
+  - 🇨🇭 Switzerland 06
+  - 🇳🇱 Netherlands 078
+  - 🇫🇷 France 10
+  - 🇨🇭 Switzerland 07
+  - 🇨🇭 Switzerland 08
+  - 🇳🇱 Netherlands 079
+  - 🇳🇱 Netherlands 080
+  - 🇳🇱 Netherlands 081
+  - 🇳🇱 Netherlands 082
+  - 🇩🇪 Germany 17
+  - 🇳🇱 Netherlands 083
+  - 🇳🇱 Netherlands 084
+  - 🇫🇷 France 11
+  - 🇳🇱 Netherlands 085
+  - 🇳🇱 Netherlands 086
+  - 🇳🇱 Netherlands 087
+  - 🇩🇪 Germany 18
+  - 🇬🇧 United Kingdom 11
+  - 🇩🇪 Germany 19
+  - 🇨🇭 Switzerland 09
+  - 🇳🇱 Netherlands 088
+  - 🇫🇷 France 12
+  - 🇨🇭 Switzerland 10
+  - 🇳🇱 Netherlands 089
+  - 🇫🇷 France 13
+  - 🇨🇭 Switzerland 11
+  - 🇨🇭 Switzerland 12
+  - 🇨🇭 Switzerland 13
+  - 🇩🇪 Germany 20
+  - 🇨🇭 Switzerland 14
+  - 🇩🇪 Germany 21
+  - 🇩🇪 Germany 22
+  - 🇳🇱 Netherlands 090
+  - 🇫🇷 France 14
+  - 🇷🇴 Romania 01
+  - 🇩🇪 Germany 23
+  - 🇩🇪 Germany 24
+  - 🇫🇷 France 15
+  - 🇩🇪 Germany 25
+  - 🇬🇧 United Kingdom 12
+  - 🇸🇪 Sweden 01
+  - 🇩🇪 Germany 26
+  - 🇩🇪 Germany 27
+  - 🇩🇪 Germany 28
+  - 🇵🇱 Poland 03
+  - 🇩🇪 Germany 29
+  - 🇨🇭 Switzerland 15
+  - 🇫🇷 France 16
+  - 🇵🇱 Poland 04
+  - 🇨🇭 Switzerland 16
+  - 🇨🇭 Switzerland 17
+  - 🇬🇧 United Kingdom 13
+  - 🇳🇱 Netherlands 091
+  - 🇳🇱 Netherlands 092
+  - 🇨🇭 Switzerland 18
+  - 🇳🇱 Netherlands 093
+  - 🇳🇱 Netherlands 094
+  - 🇩🇪 Germany 30
+  - 🇨🇭 Switzerland 19
+  - 🇳🇱 Netherlands 095
+  - 🇨🇭 Switzerland 20
+  - 🇫🇷 France 17
+  - 🇳🇱 Netherlands 096
+  - 🇨🇭 Switzerland 21
+  - 🇫🇮 Finland 01
+  - 🇵🇱 Poland 05
+  - 🇨🇭 Switzerland 22
+  - 🇩🇪 Germany 31
+  - 🇫🇷 France 18
+  - 🇵🇱 Poland 06
+  - 🇳🇱 Netherlands 097
+  - 🇷🇴 Romania 02
+  - 🇩🇪 Germany 32
+  - 🇵🇱 Poland 07
+  - 🇩🇪 Germany 33
+  - 🇳🇱 Netherlands 098
+  - 🇳🇱 Netherlands 099
+  - 🇨🇭 Switzerland 23
+  - 🇷🇴 Romania 03
+  - 🇳🇱 Netherlands 100
+  - 🇹🇷 Turkey 01
+  - 🇫🇷 France 19
+  - 🇩🇪 Germany 34
+  - 🇩🇪 Germany 35
+  - 🇬🇧 United Kingdom 14
+  - 🇷🇴 Romania 04
+  - 🇩🇪 Germany 36
+  - 🇩🇪 Germany 37
+  - 🇩🇪 Germany 38
+  - 🇸🇪 Sweden 02
+  - 🇩🇪 Germany 39
+  - 🇬🇧 United Kingdom 15
+  - 🇫🇮 Finland 02
+  - 🇩🇪 Germany 40
+  - 🇩🇪 Germany 41
+  - 🇵🇱 Poland 08
+  - 🇩🇪 Germany 42
+  - 🇨🇭 Switzerland 24
+  - 🇬🇧 United Kingdom 16
+  - 🇩🇪 Germany 43
+  - 🇳🇱 Netherlands 101
+  - 🇬🇧 United Kingdom 17
+  - 🇸🇪 Sweden 03
+  - 🇬🇧 United Kingdom 18
+  - 🇷🇴 Romania 05
+  - 🇨🇭 Switzerland 25
+  - 🇳🇱 Netherlands 102
+  - 🇺🇸 United States 044
+  - 🇩🇪 Germany 44
+  - 🇳🇱 Netherlands 103
+  - 🇪🇸 Spain 01
+  - 🇪🇸 Spain 02
+  - 🇪🇸 Spain 03
+  - 🇷🇴 Romania 06
+  - 🇷🇴 Romania 07
+  - 🇨🇭 Switzerland 26
+  - 🇨🇭 Switzerland 27
+  - 🇷🇴 Romania 08
+  - 🇪🇸 Spain 04
+  - 🇵🇱 Poland 09
+  - 🇺🇸 United States 045
+  - 🇬🇧 United Kingdom 19
+  - 🇩🇪 Germany 45
+  - 🇵🇱 Poland 10
+  - 🇺🇸 United States 046
+  - 🇩🇪 Germany 46
+  - 🇹🇷 Turkey 02
+  - 🇳🇱 Netherlands 104
+  - 🇫🇷 France 20
+  - 🇺🇸 United States 047
+  - 🇺🇸 United States 048
+  - 🇩🇪 Germany 47
+  - 🇵🇱 Poland 11
+  - 🇺🇸 United States 049
+  - 🇺🇸 United States 050
+  - 🇳🇱 Netherlands 105
+  - 🇳🇱 Netherlands 106
+  - 🇹🇷 Turkey 03
+  - 🇺🇸 United States 051
+  - 🇳🇱 Netherlands 107
+  - 🇨🇭 Switzerland 28
+  - 🇫🇷 France 21
+  - 🇩🇪 Germany 48
+  - 🇫🇷 France 22
+  - 🇳🇱 Netherlands 108
+  - 🇳🇱 Netherlands 109
+  - 🇺🇸 United States 052
+  - 🇳🇱 Netherlands 110
+  - 🇩🇪 Germany 49
+  - 🇳🇱 Netherlands 111
+  - 🇨🇦 Canada 13
+  - 🇺🇸 United States 053
+  - 🇫🇷 France 23
+  - 🇺🇸 United States 054
+  - 🇵🇱 Poland 12
+  - 🇺🇸 United States 055
+  - 🇺🇸 United States 056
+  - 🇨🇦 Canada 14
+  - 🇺🇸 United States 057
+  - 🇵🇱 Poland 13
+  - 🇩🇪 Germany 50
+  - 🇨🇦 Canada 15
+  - 🇺🇸 United States 058
+  - 🇵🇱 Poland 14
+  - 🇫🇷 France 24
+  - 🇺🇸 United States 059
+  - 🇺🇸 United States 060
+  - 🇺🇸 United States 061
+  - 🇺🇸 United States 062
+  - 🇷🇴 Romania 09
+  - 🇺🇸 United States 063
+  - 🇺🇸 United States 064
+  - 🇨🇭 Switzerland 29
+  - 🇺🇸 United States 065
+  - 🇫🇮 Finland 03
+  - 🇸🇬 Singapore 09
+  - 🇩🇪 Germany 51
+  - 🇺🇸 United States 066
+  - 🇫🇮 Finland 04
+  - 🇨🇦 Canada 16
+  - 🇩🇪 Germany 52
+  - 🇺🇸 United States 067
+  - 🇨🇦 Canada 17
+  - 🇩🇪 Germany 53
+  - 🇨🇦 Canada 18
+  - 🇺🇸 United States 068
+  - 🇨🇭 Switzerland 30
+  - 🇨🇦 Canada 19
+  - 🇵🇱 Poland 15
+  - 🇺🇸 United States 069
+  - 🇺🇸 United States 070
+  - 🇨🇦 Canada 20
+  - 🇨🇭 Switzerland 31
+  - 🇫🇷 France 25
+  - 🇺🇸 United States 071
+  - 🇺🇸 United States 072
+  - 🇳🇱 Netherlands 112
+  - 🇺🇸 United States 073
+  - 🇨🇭 Switzerland 32
+  - 🇺🇸 United States 074
+  - 🇭🇰 Hong Kong 01
+  - 🇹🇼 Taiwan 01
+  - 🇭🇰 Hong Kong 02
+  - 🇸🇬 Singapore 10
+  - 🇫🇷 France 26
+  - 🇹🇼 Taiwan 02
+  - 🇨🇭 Switzerland 33
+  - 🇹🇼 Taiwan 03
+  - 🇩🇪 Germany 54
+  - 🇹🇼 Taiwan 04
+  - 🇹🇼 Taiwan 05
+  - 🇺🇸 United States 075
+  - 🇨🇦 Canada 21
+  - 🇺🇸 United States 076
+  - 🇫🇷 France 27
+  - 🇫🇮 Finland 05
+  - 🇹🇼 Taiwan 06
+  - 🇨🇦 Canada 22
+  - 🇩🇪 Germany 55
+  - 🇺🇸 United States 077
+  - 🇺🇸 United States 078
+  - 🇺🇸 United States 079
+  - 🇭🇰 Hong Kong 03
+  - 🇷🇴 Romania 10
+  - 🇺🇸 United States 080
+  - 🇺🇸 United States 081
+  - 🇺🇸 United States 082
+  - 🇹🇼 Taiwan 07
+  - 🇺🇸 United States 083
+  - 🇭🇰 Hong Kong 04
+  - 🇬🇧 United Kingdom 20
+  - 🇺🇸 United States 084
+  - 🇨🇦 Canada 23
+  - 🇳🇱 Netherlands 113
+  - 🇹🇼 Taiwan 08
+  - 🇺🇸 United States 085
+  - 🇩🇪 Germany 56
+  - 🇺🇸 United States 086
+  - 🇺🇸 United States 087
+  - 🇫🇷 France 28
+  - 🇺🇸 United States 088
+  - 🇭🇰 Hong Kong 05
+  - 🇩🇪 Germany 57
+  - 🇭🇰 Hong Kong 06
+  - 🇺🇸 United States 089
+  - 🇺🇸 United States 090
+  - 🇭🇰 Hong Kong 07
+  - 🇨🇦 Canada 24
+  - 🇺🇸 United States 091
+  - 🇺🇸 United States 092
+  - 🇭🇰 Hong Kong 08
+  - 🇵🇱 Poland 16
+  - 🇺🇸 United States 093
+  - 🇺🇸 United States 094
+  - 🇺🇸 United States 095
+  - 🇺🇸 United States 096
+  - 🇹🇼 Taiwan 09
+  - 🇺🇸 United States 097
+  - 🇺🇸 United States 098
+  - 🇸🇬 Singapore 11
+  - 🇹🇼 Taiwan 10
+  - 🇵🇱 Poland 17
+  - 🇺🇸 United States 099
+  - 🇺🇸 United States 100
+  - 🇺🇸 United States 101
+  - 🇺🇸 United States 102
+  - 🇺🇸 United States 103
+  - 🇺🇸 United States 104
+  - 🇺🇸 United States 105
+  - 🇺🇸 United States 106
+  - 🇺🇸 United States 107
+  - 🇺🇸 United States 108
+  - 🇨🇦 Canada 25
+  - 🇺🇸 United States 109
+  - 🇺🇸 United States 110
+  - 🇺🇸 United States 111
+  - 🇨🇦 Canada 26
+  - 🇺🇸 United States 112
+  - 🇺🇸 United States 113
+- name: 🇳🇱 Netherlands
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇳🇱 Netherlands 001
+  - 🇳🇱 Netherlands 002
+  - 🇳🇱 Netherlands 003
+  - 🇳🇱 Netherlands 004
+  - 🇳🇱 Netherlands 005
+  - 🇳🇱 Netherlands 006
+  - 🇳🇱 Netherlands 007
+  - 🇳🇱 Netherlands 008
+  - 🇳🇱 Netherlands 009
+  - 🇳🇱 Netherlands 010
+  - 🇳🇱 Netherlands 011
+  - 🇳🇱 Netherlands 012
+  - 🇳🇱 Netherlands 013
+  - 🇳🇱 Netherlands 014
+  - 🇳🇱 Netherlands 015
+  - 🇳🇱 Netherlands 016
+  - 🇳🇱 Netherlands 017
+  - 🇳🇱 Netherlands 018
+  - 🇳🇱 Netherlands 019
+  - 🇳🇱 Netherlands 020
+  - 🇳🇱 Netherlands 021
+  - 🇳🇱 Netherlands 022
+  - 🇳🇱 Netherlands 023
+  - 🇳🇱 Netherlands 024
+  - 🇳🇱 Netherlands 025
+  - 🇳🇱 Netherlands 026
+  - 🇳🇱 Netherlands 027
+  - 🇳🇱 Netherlands 028
+  - 🇳🇱 Netherlands 029
+  - 🇳🇱 Netherlands 030
+  - 🇳🇱 Netherlands 031
+  - 🇳🇱 Netherlands 032
+  - 🇳🇱 Netherlands 033
+  - 🇳🇱 Netherlands 034
+  - 🇳🇱 Netherlands 035
+  - 🇳🇱 Netherlands 036
+  - 🇳🇱 Netherlands 037
+  - 🇳🇱 Netherlands 038
+  - 🇳🇱 Netherlands 039
+  - 🇳🇱 Netherlands 040
+  - 🇳🇱 Netherlands 041
+  - 🇳🇱 Netherlands 042
+  - 🇳🇱 Netherlands 043
+  - 🇳🇱 Netherlands 044
+  - 🇳🇱 Netherlands 045
+  - 🇳🇱 Netherlands 046
+  - 🇳🇱 Netherlands 047
+  - 🇳🇱 Netherlands 048
+  - 🇳🇱 Netherlands 049
+  - 🇳🇱 Netherlands 050
+  - 🇳🇱 Netherlands 051
+  - 🇳🇱 Netherlands 052
+  - 🇳🇱 Netherlands 053
+  - 🇳🇱 Netherlands 054
+  - 🇳🇱 Netherlands 055
+  - 🇳🇱 Netherlands 056
+  - 🇳🇱 Netherlands 057
+  - 🇳🇱 Netherlands 058
+  - 🇳🇱 Netherlands 059
+  - 🇳🇱 Netherlands 060
+  - 🇳🇱 Netherlands 061
+  - 🇳🇱 Netherlands 062
+  - 🇳🇱 Netherlands 063
+  - 🇳🇱 Netherlands 064
+  - 🇳🇱 Netherlands 065
+  - 🇳🇱 Netherlands 066
+  - 🇳🇱 Netherlands 067
+  - 🇳🇱 Netherlands 068
+  - 🇳🇱 Netherlands 069
+  - 🇳🇱 Netherlands 070
+  - 🇳🇱 Netherlands 071
+  - 🇳🇱 Netherlands 072
+  - 🇳🇱 Netherlands 073
+  - 🇳🇱 Netherlands 074
+  - 🇳🇱 Netherlands 075
+  - 🇳🇱 Netherlands 076
+  - 🇳🇱 Netherlands 077
+  - 🇳🇱 Netherlands 078
+  - 🇳🇱 Netherlands 079
+  - 🇳🇱 Netherlands 080
+  - 🇳🇱 Netherlands 081
+  - 🇳🇱 Netherlands 082
+  - 🇳🇱 Netherlands 083
+  - 🇳🇱 Netherlands 084
+  - 🇳🇱 Netherlands 085
+  - 🇳🇱 Netherlands 086
+  - 🇳🇱 Netherlands 087
+  - 🇳🇱 Netherlands 088
+  - 🇳🇱 Netherlands 089
+  - 🇳🇱 Netherlands 090
+  - 🇳🇱 Netherlands 091
+  - 🇳🇱 Netherlands 092
+  - 🇳🇱 Netherlands 093
+  - 🇳🇱 Netherlands 094
+  - 🇳🇱 Netherlands 095
+  - 🇳🇱 Netherlands 096
+  - 🇳🇱 Netherlands 097
+  - 🇳🇱 Netherlands 098
+  - 🇳🇱 Netherlands 099
+  - 🇳🇱 Netherlands 100
+  - 🇳🇱 Netherlands 101
+  - 🇳🇱 Netherlands 102
+  - 🇳🇱 Netherlands 103
+  - 🇳🇱 Netherlands 104
+  - 🇳🇱 Netherlands 105
+  - 🇳🇱 Netherlands 106
+  - 🇳🇱 Netherlands 107
+  - 🇳🇱 Netherlands 108
+  - 🇳🇱 Netherlands 109
+  - 🇳🇱 Netherlands 110
+  - 🇳🇱 Netherlands 111
+  - 🇳🇱 Netherlands 112
+  - 🇳🇱 Netherlands 113
+- name: 🇺🇸 United States
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇺🇸 United States 001
+  - 🇺🇸 United States 002
+  - 🇺🇸 United States 003
+  - 🇺🇸 United States 004
+  - 🇺🇸 United States 005
+  - 🇺🇸 United States 006
+  - 🇺🇸 United States 007
+  - 🇺🇸 United States 008
+  - 🇺🇸 United States 009
+  - 🇺🇸 United States 010
+  - 🇺🇸 United States 011
+  - 🇺🇸 United States 012
+  - 🇺🇸 United States 013
+  - 🇺🇸 United States 014
+  - 🇺🇸 United States 015
+  - 🇺🇸 United States 016
+  - 🇺🇸 United States 017
+  - 🇺🇸 United States 018
+  - 🇺🇸 United States 019
+  - 🇺🇸 United States 020
+  - 🇺🇸 United States 021
+  - 🇺🇸 United States 022
+  - 🇺🇸 United States 023
+  - 🇺🇸 United States 024
+  - 🇺🇸 United States 025
+  - 🇺🇸 United States 026
+  - 🇺🇸 United States 027
+  - 🇺🇸 United States 028
+  - 🇺🇸 United States 029
+  - 🇺🇸 United States 030
+  - 🇺🇸 United States 031
+  - 🇺🇸 United States 032
+  - 🇺🇸 United States 033
+  - 🇺🇸 United States 034
+  - 🇺🇸 United States 035
+  - 🇺🇸 United States 036
+  - 🇺🇸 United States 037
+  - 🇺🇸 United States 038
+  - 🇺🇸 United States 039
+  - 🇺🇸 United States 040
+  - 🇺🇸 United States 041
+  - 🇺🇸 United States 042
+  - 🇺🇸 United States 043
+  - 🇺🇸 United States 044
+  - 🇺🇸 United States 045
+  - 🇺🇸 United States 046
+  - 🇺🇸 United States 047
+  - 🇺🇸 United States 048
+  - 🇺🇸 United States 049
+  - 🇺🇸 United States 050
+  - 🇺🇸 United States 051
+  - 🇺🇸 United States 052
+  - 🇺🇸 United States 053
+  - 🇺🇸 United States 054
+  - 🇺🇸 United States 055
+  - 🇺🇸 United States 056
+  - 🇺🇸 United States 057
+  - 🇺🇸 United States 058
+  - 🇺🇸 United States 059
+  - 🇺🇸 United States 060
+  - 🇺🇸 United States 061
+  - 🇺🇸 United States 062
+  - 🇺🇸 United States 063
+  - 🇺🇸 United States 064
+  - 🇺🇸 United States 065
+  - 🇺🇸 United States 066
+  - 🇺🇸 United States 067
+  - 🇺🇸 United States 068
+  - 🇺🇸 United States 069
+  - 🇺🇸 United States 070
+  - 🇺🇸 United States 071
+  - 🇺🇸 United States 072
+  - 🇺🇸 United States 073
+  - 🇺🇸 United States 074
+  - 🇺🇸 United States 075
+  - 🇺🇸 United States 076
+  - 🇺🇸 United States 077
+  - 🇺🇸 United States 078
+  - 🇺🇸 United States 079
+  - 🇺🇸 United States 080
+  - 🇺🇸 United States 081
+  - 🇺🇸 United States 082
+  - 🇺🇸 United States 083
+  - 🇺🇸 United States 084
+  - 🇺🇸 United States 085
+  - 🇺🇸 United States 086
+  - 🇺🇸 United States 087
+  - 🇺🇸 United States 088
+  - 🇺🇸 United States 089
+  - 🇺🇸 United States 090
+  - 🇺🇸 United States 091
+  - 🇺🇸 United States 092
+  - 🇺🇸 United States 093
+  - 🇺🇸 United States 094
+  - 🇺🇸 United States 095
+  - 🇺🇸 United States 096
+  - 🇺🇸 United States 097
+  - 🇺🇸 United States 098
+  - 🇺🇸 United States 099
+  - 🇺🇸 United States 100
+  - 🇺🇸 United States 101
+  - 🇺🇸 United States 102
+  - 🇺🇸 United States 103
+  - 🇺🇸 United States 104
+  - 🇺🇸 United States 105
+  - 🇺🇸 United States 106
+  - 🇺🇸 United States 107
+  - 🇺🇸 United States 108
+  - 🇺🇸 United States 109
+  - 🇺🇸 United States 110
+  - 🇺🇸 United States 111
+  - 🇺🇸 United States 112
+  - 🇺🇸 United States 113
+- name: 🇩🇪 Germany
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇩🇪 Germany 01
+  - 🇩🇪 Germany 02
+  - 🇩🇪 Germany 03
+  - 🇩🇪 Germany 04
+  - 🇩🇪 Germany 05
+  - 🇩🇪 Germany 06
+  - 🇩🇪 Germany 07
+  - 🇩🇪 Germany 08
+  - 🇩🇪 Germany 09
+  - 🇩🇪 Germany 10
+  - 🇩🇪 Germany 11
+  - 🇩🇪 Germany 12
+  - 🇩🇪 Germany 13
+  - 🇩🇪 Germany 14
+  - 🇩🇪 Germany 15
+  - 🇩🇪 Germany 16
+  - 🇩🇪 Germany 17
+  - 🇩🇪 Germany 18
+  - 🇩🇪 Germany 19
+  - 🇩🇪 Germany 20
+  - 🇩🇪 Germany 21
+  - 🇩🇪 Germany 22
+  - 🇩🇪 Germany 23
+  - 🇩🇪 Germany 24
+  - 🇩🇪 Germany 25
+  - 🇩🇪 Germany 26
+  - 🇩🇪 Germany 27
+  - 🇩🇪 Germany 28
+  - 🇩🇪 Germany 29
+  - 🇩🇪 Germany 30
+  - 🇩🇪 Germany 31
+  - 🇩🇪 Germany 32
+  - 🇩🇪 Germany 33
+  - 🇩🇪 Germany 34
+  - 🇩🇪 Germany 35
+  - 🇩🇪 Germany 36
+  - 🇩🇪 Germany 37
+  - 🇩🇪 Germany 38
+  - 🇩🇪 Germany 39
+  - 🇩🇪 Germany 40
+  - 🇩🇪 Germany 41
+  - 🇩🇪 Germany 42
+  - 🇩🇪 Germany 43
+  - 🇩🇪 Germany 44
+  - 🇩🇪 Germany 45
+  - 🇩🇪 Germany 46
+  - 🇩🇪 Germany 47
+  - 🇩🇪 Germany 48
+  - 🇩🇪 Germany 49
+  - 🇩🇪 Germany 50
+  - 🇩🇪 Germany 51
+  - 🇩🇪 Germany 52
+  - 🇩🇪 Germany 53
+  - 🇩🇪 Germany 54
+  - 🇩🇪 Germany 55
+  - 🇩🇪 Germany 56
+  - 🇩🇪 Germany 57
+- name: 🇨🇭 Switzerland
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇨🇭 Switzerland 01
+  - 🇨🇭 Switzerland 02
+  - 🇨🇭 Switzerland 03
+  - 🇨🇭 Switzerland 04
+  - 🇨🇭 Switzerland 05
+  - 🇨🇭 Switzerland 06
+  - 🇨🇭 Switzerland 07
+  - 🇨🇭 Switzerland 08
+  - 🇨🇭 Switzerland 09
+  - 🇨🇭 Switzerland 10
+  - 🇨🇭 Switzerland 11
+  - 🇨🇭 Switzerland 12
+  - 🇨🇭 Switzerland 13
+  - 🇨🇭 Switzerland 14
+  - 🇨🇭 Switzerland 15
+  - 🇨🇭 Switzerland 16
+  - 🇨🇭 Switzerland 17
+  - 🇨🇭 Switzerland 18
+  - 🇨🇭 Switzerland 19
+  - 🇨🇭 Switzerland 20
+  - 🇨🇭 Switzerland 21
+  - 🇨🇭 Switzerland 22
+  - 🇨🇭 Switzerland 23
+  - 🇨🇭 Switzerland 24
+  - 🇨🇭 Switzerland 25
+  - 🇨🇭 Switzerland 26
+  - 🇨🇭 Switzerland 27
+  - 🇨🇭 Switzerland 28
+  - 🇨🇭 Switzerland 29
+  - 🇨🇭 Switzerland 30
+  - 🇨🇭 Switzerland 31
+  - 🇨🇭 Switzerland 32
+  - 🇨🇭 Switzerland 33
+- name: 🇫🇷 France
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇫🇷 France 01
+  - 🇫🇷 France 02
+  - 🇫🇷 France 03
+  - 🇫🇷 France 04
+  - 🇫🇷 France 05
+  - 🇫🇷 France 06
+  - 🇫🇷 France 07
+  - 🇫🇷 France 08
+  - 🇫🇷 France 09
+  - 🇫🇷 France 10
+  - 🇫🇷 France 11
+  - 🇫🇷 France 12
+  - 🇫🇷 France 13
+  - 🇫🇷 France 14
+  - 🇫🇷 France 15
+  - 🇫🇷 France 16
+  - 🇫🇷 France 17
+  - 🇫🇷 France 18
+  - 🇫🇷 France 19
+  - 🇫🇷 France 20
+  - 🇫🇷 France 21
+  - 🇫🇷 France 22
+  - 🇫🇷 France 23
+  - 🇫🇷 France 24
+  - 🇫🇷 France 25
+  - 🇫🇷 France 26
+  - 🇫🇷 France 27
+  - 🇫🇷 France 28
+- name: 🇨🇦 Canada
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇨🇦 Canada 01
+  - 🇨🇦 Canada 02
+  - 🇨🇦 Canada 03
+  - 🇨🇦 Canada 04
+  - 🇨🇦 Canada 05
+  - 🇨🇦 Canada 06
+  - 🇨🇦 Canada 07
+  - 🇨🇦 Canada 08
+  - 🇨🇦 Canada 09
+  - 🇨🇦 Canada 10
+  - 🇨🇦 Canada 11
+  - 🇨🇦 Canada 12
+  - 🇨🇦 Canada 13
+  - 🇨🇦 Canada 14
+  - 🇨🇦 Canada 15
+  - 🇨🇦 Canada 16
+  - 🇨🇦 Canada 17
+  - 🇨🇦 Canada 18
+  - 🇨🇦 Canada 19
+  - 🇨🇦 Canada 20
+  - 🇨🇦 Canada 21
+  - 🇨🇦 Canada 22
+  - 🇨🇦 Canada 23
+  - 🇨🇦 Canada 24
+  - 🇨🇦 Canada 25
+  - 🇨🇦 Canada 26
+- name: 🇬🇧 United Kingdom
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇬🇧 United Kingdom 01
+  - 🇬🇧 United Kingdom 02
+  - 🇬🇧 United Kingdom 03
+  - 🇬🇧 United Kingdom 04
+  - 🇬🇧 United Kingdom 05
+  - 🇬🇧 United Kingdom 06
+  - 🇬🇧 United Kingdom 07
+  - 🇬🇧 United Kingdom 08
+  - 🇬🇧 United Kingdom 09
+  - 🇬🇧 United Kingdom 10
+  - 🇬🇧 United Kingdom 11
+  - 🇬🇧 United Kingdom 12
+  - 🇬🇧 United Kingdom 13
+  - 🇬🇧 United Kingdom 14
+  - 🇬🇧 United Kingdom 15
+  - 🇬🇧 United Kingdom 16
+  - 🇬🇧 United Kingdom 17
+  - 🇬🇧 United Kingdom 18
+  - 🇬🇧 United Kingdom 19
+  - 🇬🇧 United Kingdom 20
+- name: 🇵🇱 Poland
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇵🇱 Poland 01
+  - 🇵🇱 Poland 02
+  - 🇵🇱 Poland 03
+  - 🇵🇱 Poland 04
+  - 🇵🇱 Poland 05
+  - 🇵🇱 Poland 06
+  - 🇵🇱 Poland 07
+  - 🇵🇱 Poland 08
+  - 🇵🇱 Poland 09
+  - 🇵🇱 Poland 10
+  - 🇵🇱 Poland 11
+  - 🇵🇱 Poland 12
+  - 🇵🇱 Poland 13
+  - 🇵🇱 Poland 14
+  - 🇵🇱 Poland 15
+  - 🇵🇱 Poland 16
+  - 🇵🇱 Poland 17
+- name: 🇮🇹 Italy
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇮🇹 Italy 01
+  - 🇮🇹 Italy 02
+  - 🇮🇹 Italy 03
+  - 🇮🇹 Italy 04
+  - 🇮🇹 Italy 05
+  - 🇮🇹 Italy 06
+  - 🇮🇹 Italy 07
+  - 🇮🇹 Italy 08
+  - 🇮🇹 Italy 09
+  - 🇮🇹 Italy 10
+  - 🇮🇹 Italy 11
+- name: 🇸🇬 Singapore
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇸🇬 Singapore 01
+  - 🇸🇬 Singapore 02
+  - 🇸🇬 Singapore 03
+  - 🇸🇬 Singapore 04
+  - 🇸🇬 Singapore 05
+  - 🇸🇬 Singapore 06
+  - 🇸🇬 Singapore 07
+  - 🇸🇬 Singapore 08
+  - 🇸🇬 Singapore 09
+  - 🇸🇬 Singapore 10
+  - 🇸🇬 Singapore 11
+- name: 🇷🇴 Romania
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇷🇴 Romania 01
+  - 🇷🇴 Romania 02
+  - 🇷🇴 Romania 03
+  - 🇷🇴 Romania 04
+  - 🇷🇴 Romania 05
+  - 🇷🇴 Romania 06
+  - 🇷🇴 Romania 07
+  - 🇷🇴 Romania 08
+  - 🇷🇴 Romania 09
+  - 🇷🇴 Romania 10
+- name: 🇹🇼 Taiwan
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇹🇼 Taiwan 01
+  - 🇹🇼 Taiwan 02
+  - 🇹🇼 Taiwan 03
+  - 🇹🇼 Taiwan 04
+  - 🇹🇼 Taiwan 05
+  - 🇹🇼 Taiwan 06
+  - 🇹🇼 Taiwan 07
+  - 🇹🇼 Taiwan 08
+  - 🇹🇼 Taiwan 09
+  - 🇹🇼 Taiwan 10
+- name: 🇧🇬 Bulgaria
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇧🇬 Bulgaria 01
+  - 🇧🇬 Bulgaria 02
+  - 🇧🇬 Bulgaria 03
+  - 🇧🇬 Bulgaria 04
+  - 🇧🇬 Bulgaria 05
+  - 🇧🇬 Bulgaria 06
+  - 🇧🇬 Bulgaria 07
+  - 🇧🇬 Bulgaria 08
+  - 🇧🇬 Bulgaria 09
+- name: 🇱🇹 Lithuania
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇱🇹 Lithuania 01
+  - 🇱🇹 Lithuania 02
+  - 🇱🇹 Lithuania 03
+  - 🇱🇹 Lithuania 04
+  - 🇱🇹 Lithuania 05
+  - 🇱🇹 Lithuania 06
+  - 🇱🇹 Lithuania 07
+  - 🇱🇹 Lithuania 08
+- name: 🇭🇰 Hong Kong
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇭🇰 Hong Kong 01
+  - 🇭🇰 Hong Kong 02
+  - 🇭🇰 Hong Kong 03
+  - 🇭🇰 Hong Kong 04
+  - 🇭🇰 Hong Kong 05
+  - 🇭🇰 Hong Kong 06
+  - 🇭🇰 Hong Kong 07
+  - 🇭🇰 Hong Kong 08
+- name: 🇯🇵 Japan
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇯🇵 Japan 01
+  - 🇯🇵 Japan 02
+  - 🇯🇵 Japan 03
+  - 🇯🇵 Japan 04
+  - 🇯🇵 Japan 05
+  - 🇯🇵 Japan 06
+- name: 🇫🇮 Finland
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇫🇮 Finland 01
+  - 🇫🇮 Finland 02
+  - 🇫🇮 Finland 03
+  - 🇫🇮 Finland 04
+  - 🇫🇮 Finland 05
+- name: 🇪🇸 Spain
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇪🇸 Spain 01
+  - 🇪🇸 Spain 02
+  - 🇪🇸 Spain 03
+  - 🇪🇸 Spain 04
+- name: 🇸🇪 Sweden
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇸🇪 Sweden 01
+  - 🇸🇪 Sweden 02
+  - 🇸🇪 Sweden 03
+- name: 🇹🇷 Turkey
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇹🇷 Turkey 01
+  - 🇹🇷 Turkey 02
+  - 🇹🇷 Turkey 03
+rules:
+- GEOSITE,private,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,category-ir,DIRECT
+- GEOSITE,category-ru,DIRECT
+- GEOIP,IR,DIRECT,no-resolve
+- GEOIP,RU,DIRECT,no-resolve
+- MATCH,🚀 Proxy
